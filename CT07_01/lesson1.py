@@ -28,7 +28,7 @@
 #     counter += 1
 
 counter = 10
-while counter < 1:
-    print(counter)
-else:
+while counter > 1:
     counter -= 1
+else:
+    print(counter) counter
