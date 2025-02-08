@@ -25,4 +25,4 @@
 myString = ("abcde")
 
 for s in myString:
-    print()
+    print(s)
