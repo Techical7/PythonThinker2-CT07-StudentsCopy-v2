@@ -16,5 +16,5 @@ planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "
 # Task 1b
 planets[3] = "Watch"
 
-for s in planets:
-    print(s)
+for p in planets:
+    print(p)
