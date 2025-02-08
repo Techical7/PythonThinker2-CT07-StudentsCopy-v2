@@ -14,12 +14,13 @@
 planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Nuptune" ]
 
 # # Task 1b
-# planets[3] = "Watch"
+planets[3] = "Watch"
 
-# for p in planets:
-#     print(p)
+for p in planets:
+    print(p)
 
 # myString = ("abcde")
 
 # for s in myString:
 #     print(s)
+
