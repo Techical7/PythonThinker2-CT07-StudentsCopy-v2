@@ -22,7 +22,7 @@
 # for p in planets:
 #     print(p)
 
-myString = ("abcde")
+# myString = ("abcde")
 
-for s in myString:
-    print(s)
+# for s in myString:
+#     print(s)
