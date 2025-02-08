@@ -36,10 +36,10 @@ for p in planets:
 for p in planets:
 
   if (p == "Earth"):
-    print(f"{p}this is my home")
+    print(f"{p} this is my home")
   elif (p == "Watch"):
-    print(f"{p}I conquered this")
+    print(f"{p} I conquered this")
   elif (p == "lalaLand"):
-    print(f"{p}I created this")
+    print(f"{p} I created this")
 else:
     print(p)
