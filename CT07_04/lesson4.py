@@ -25,3 +25,4 @@ for p in planets:
 # for s in myString:
 #     print(s)
 
+# Task 1c
