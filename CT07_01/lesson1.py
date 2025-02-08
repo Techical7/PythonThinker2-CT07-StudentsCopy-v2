@@ -27,8 +27,5 @@
 #         break
 #     counter += 1
 
-counter = 10
-while counter > 1:
-    counter -= 1
-else:
-    print(counter)
+for i in range(1,10):
+    print(i)
