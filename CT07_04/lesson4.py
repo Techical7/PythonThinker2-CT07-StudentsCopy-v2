@@ -37,9 +37,9 @@ for p in planets:
 
   if (p == "Earth"):
     print(f"{p}this is my home")
-  elif (p == "Watch"):
-    print("I conquered this")
+  elif (p == f"{p}Watch"):
+    print(f"{p}I conquered this")
   elif (p == "lalaLand"):
-    print("I created this")
+    print(f"{p}I created this")
 
     print(p)
