@@ -27,4 +27,3 @@
 #         break
 #     counter += 1
 
-counter = 10
