@@ -13,6 +13,7 @@
 # Task 1a
 planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Nuptune" ]
 
+# Task 1b
 planets[3] = "Watch"
 
 for s in planets:
