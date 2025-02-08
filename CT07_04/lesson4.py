@@ -25,4 +25,4 @@ for p in planets:
 #     print(s)
 
 list.insert(6,"Uranus")
-list.append
+list.append("Echo")
