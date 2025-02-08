@@ -57,4 +57,7 @@ while True:
     if(country.lower() == "end"):
         break
 
-    countries.append(cou)
+    countries.append(country)
+
+for country in countries:
+    print()
