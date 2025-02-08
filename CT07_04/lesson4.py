@@ -1,7 +1,7 @@
 # print("Hello from lesson 4")
 
 import time
-countdown = 11
+countdown = 10
 
 while countdown > 0:
     time.sleep(1)
