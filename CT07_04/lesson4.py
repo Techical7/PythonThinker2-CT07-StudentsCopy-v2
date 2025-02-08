@@ -3,7 +3,7 @@
 import time
 countdown = 10
 
-while countdown < 0:
+while countdown > 0:
     time.sleep(1)
     countdown -= 1
     print(countdown)
