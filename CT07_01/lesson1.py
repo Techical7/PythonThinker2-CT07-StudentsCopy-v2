@@ -30,4 +30,5 @@
 counter = 10
 while counter < 1:
     print(counter)
+else:
     counter -= 1
