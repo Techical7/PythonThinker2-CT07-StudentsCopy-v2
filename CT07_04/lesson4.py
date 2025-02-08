@@ -45,11 +45,14 @@
 #     print(p)
 
 # Task 3
-contries = []
+countries = []
 
 user_inputs = ["Germany", "Japan", "end"]
 i = 0
 
 while True:
     country = user_inputs[i]
-    
+    i += 1
+
+    if(country.lower() == "end"):
+        break
