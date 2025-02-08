@@ -31,3 +31,6 @@ planets.pop(5)
 
 for p in planets:
     print(p)
+
+if planets == "Earth":
+    print()
