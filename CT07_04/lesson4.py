@@ -13,7 +13,7 @@
 
 planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Nuptune" ]
 
-planets[2] = ""
+planets[2] = "Watch"
 
 for s in planets:
     print(s)
