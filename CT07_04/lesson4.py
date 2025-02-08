@@ -60,4 +60,4 @@ while True:
     countries.append(country)
 
 for country in countries:
-    print(f"I would like to visit")
+    print(f"I would like to visit [Countries]")
