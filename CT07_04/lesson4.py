@@ -28,5 +28,5 @@ for p in planets:
 # Task 1c
 
 planets.append("Pluto")
-planets.insert
+planets.insert(3,"lalaland")
 del(list[2])
