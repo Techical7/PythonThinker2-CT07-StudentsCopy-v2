@@ -27,4 +27,4 @@ for p in planets:
 
 # Task 1c
 
-del(list)
+del(list[3])
