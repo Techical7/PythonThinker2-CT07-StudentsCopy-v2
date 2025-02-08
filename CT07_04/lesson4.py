@@ -11,7 +11,7 @@
 # else:
 #     print("Happy New Year")
 # Task 1a
-# planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Nuptune" ]
+planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Nuptune" ]
 
 # # Task 1b
 # planets[3] = "Watch"
