@@ -20,9 +20,9 @@
 #     print(counter)
 #     counter += 2
 
-counter = 1
-while counter < 11:
-    print(counter)
-    if (counter == 5):
-        break
-    counter += 1
+# counter = 1
+# while counter < 11:
+#     print(counter)
+#     if (counter == 5):
+#         break
+#     counter += 1
