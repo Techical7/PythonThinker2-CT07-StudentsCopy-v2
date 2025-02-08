@@ -13,5 +13,7 @@
 
 planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Nuptune" ]
 
+
+
 for s in planets:
     print(s)
