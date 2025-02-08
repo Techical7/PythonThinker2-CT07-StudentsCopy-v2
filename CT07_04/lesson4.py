@@ -45,4 +45,3 @@
 #     print(p)
 
 # Task 3
-wh
