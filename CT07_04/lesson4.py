@@ -32,6 +32,9 @@ planets.pop(5)
 for p in planets:
     print(p)
 
+# Task 2
+for p in planets:
+    print
 if planets == "Earth":
     print("this is my home")
 if planets == "Watch":
