@@ -51,4 +51,5 @@ user_inputs = ["Germany", "Japan", "end"]
 i = 0
 
 while True:
-    country = user_inputs
+    country = user_inputs[i]
+    
