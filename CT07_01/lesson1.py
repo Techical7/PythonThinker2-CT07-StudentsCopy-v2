@@ -30,6 +30,4 @@
 counter = 10
 while counter < 1:
     print(counter)
-    if (counter == 5):
-        break
-    counter += 1
+    counter -= 1
