@@ -30,4 +30,4 @@ planets.insert(3,"lalaland")
 planets.pop(5)
 
 for p in planets:
-    p
+    print(p)
