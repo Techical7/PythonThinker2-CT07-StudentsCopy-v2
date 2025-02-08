@@ -21,3 +21,5 @@
 
 # for p in planets:
 #     print(p)
+
+myString = (abcde)
