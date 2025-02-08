@@ -48,3 +48,4 @@
 contries = []
 
 user_input = ["Germany", "Japan", "end"]
+i = 0
