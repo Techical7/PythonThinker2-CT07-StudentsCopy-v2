@@ -24,5 +24,5 @@ for p in planets:
 # for s in myString:
 #     print(s)
 
-list.insert(6,"Ur")
-list
+list.insert(6,"Uranus")
+list.append
