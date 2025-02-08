@@ -20,11 +20,6 @@ planets[3] = "Watch"
 for p in planets:
     print(p)
 
-# myString = ("abcde")
-
-# for s in myString:
-#     print(s)
-
 # Task 1c
 
 planets.append("Pluto")
