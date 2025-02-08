@@ -34,7 +34,7 @@ for p in planets:
 
 # Task 2
 for p in planets:
-    print
+    print(p)
 if planets == "Earth":
     print("this is my home")
 if planets == "Watch":
