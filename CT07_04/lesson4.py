@@ -11,4 +11,4 @@
 # else:
 #     print("Happy New Year")
 
-planets = [""]
+planets = ["Mer"]
