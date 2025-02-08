@@ -24,5 +24,5 @@ for p in planets:
 # for s in myString:
 #     print(s)
 
-list.insert(8,"Nuptune")
+list.insert(7,"Nuptune")
 list.append("Echo")
