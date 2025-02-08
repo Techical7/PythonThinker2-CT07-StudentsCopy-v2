@@ -49,3 +49,6 @@ contries = []
 
 user_input = ["Germany", "Japan", "end"]
 i = 0
+
+while True:
+    cu
