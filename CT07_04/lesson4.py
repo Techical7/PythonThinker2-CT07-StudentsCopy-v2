@@ -45,3 +45,4 @@
 #     print(p)
 
 # Task 3
+contries = []
