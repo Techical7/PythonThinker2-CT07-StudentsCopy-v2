@@ -26,5 +26,4 @@ for p in planets:
 # for s in myString:
 #     print(s)
 
-list.insert(7,"Nuptune")
-list.append("Echo")
+list.insert(7,"yyy")
