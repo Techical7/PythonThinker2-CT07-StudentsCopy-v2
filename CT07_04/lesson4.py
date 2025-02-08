@@ -41,5 +41,5 @@ for p in planets:
     print(f"{p}I conquered this")
   elif (p == "lalaLand"):
     print(f"{p}I created this")
-
+else:
     print(p)
