@@ -27,4 +27,7 @@ planets.insert(3,"lalaland")
 
 # Task 1d
 # del(planet[5])
-planets.pop
+planets.pop(5)
+
+for p in planets:
+    p
