@@ -4,4 +4,5 @@ import time
 countdown = 10
 
 while countdown < 10:
-    time.sleep
+    time.sleep(1)
+    countdown
