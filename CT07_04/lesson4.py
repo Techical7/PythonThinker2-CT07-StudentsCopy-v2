@@ -12,34 +12,34 @@
 #     print("Happy New Year")
 # Task 1a
 
-planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Nuptune" ]
+# planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Nuptune" ]
 
-# # Task 1b
-planets[3] = "Watch"
+# # # Task 1b
+# planets[3] = "Watch"
 
-for p in planets:
-    print(p)
+# for p in planets:
+#     print(p)
 
-# Task 1c
+# # Task 1c
 
-planets.append("Pluto")
-planets.insert(3,"lalaland")
+# planets.append("Pluto")
+# planets.insert(3,"lalaland")
 
-# Task 1d
-# del(planet[5])
-planets.pop(5)
+# # Task 1d
+# # del(planet[5])
+# planets.pop(5)
 
-for p in planets:
-    print(p)
+# for p in planets:
+#     print(p)
 
-# Task 2
-for p in planets:
+# # Task 2
+# for p in planets:
 
-  if (p == "Earth"):
-    print(f"{p} this is my home")
-  elif (p == "Watch"):
-    print(f"{p} I conquered this")
-  elif (p == "lalaLand"):
-    print(f"{p} I created this")
-else:
-    print(p)
+#   if (p == "Earth"):
+#     print(f"{p} this is my home")
+#   elif (p == "Watch"):
+#     print(f"{p} I conquered this")
+#   elif (p == "lalaLand"):
+#     print(f"{p} I created this")
+# else:
+#     print(p)
