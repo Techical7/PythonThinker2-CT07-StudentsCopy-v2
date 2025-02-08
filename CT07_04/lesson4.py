@@ -27,3 +27,4 @@ for p in planets:
 
 # Task 1c
 
+del(list)
