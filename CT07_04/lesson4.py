@@ -7,4 +7,5 @@ while countdown < 10:
     time.sleep(1)
     countdown -= 1
     print(countdown)
-else: print
+else:
+    print("Happy New Year")
