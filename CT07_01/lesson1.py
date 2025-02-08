@@ -27,5 +27,3 @@
 #         break
 #     counter += 1
 
-for i in range(11,1,-1):
-    print(i)
