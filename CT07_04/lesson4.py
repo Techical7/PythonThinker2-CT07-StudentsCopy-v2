@@ -31,4 +31,4 @@ planets.append("Pluto")
 planets.insert(3,"lalaland")
 
 # Task 1d
-del(list[2])
+# del(list[2])
