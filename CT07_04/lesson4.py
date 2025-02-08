@@ -57,4 +57,4 @@ while True:
     if(country.lower() == "end"):
         break
 
-    countries
+    countries.append(cou)
