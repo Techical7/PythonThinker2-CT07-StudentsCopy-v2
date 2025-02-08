@@ -47,4 +47,4 @@
 # Task 3
 contries = []
 
-user_input = ["Germany", ""]
+user_input = ["Germany", "Japan", "end"]
