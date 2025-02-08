@@ -27,5 +27,5 @@ for p in planets:
 
 # Task 1c
 
-planets.append
+planets.append("Plu")
 del(list[2])
