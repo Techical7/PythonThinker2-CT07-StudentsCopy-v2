@@ -25,4 +25,3 @@ for p in planets:
 # for s in myString:
 #     print(s)
 
-lists.insert(7, "yyy")
