@@ -47,8 +47,8 @@
 # Task 3
 contries = []
 
-user_input = ["Germany", "Japan", "end"]
+user_inputs = ["Germany", "Japan", "end"]
 i = 0
 
 while True:
-    country = user_
+    country = user_inputs
