@@ -45,6 +45,4 @@
 #     print(p)
 
 # Task 3
-# while counter < 26:
-#     print(counter)
-#     counter += 2
+wh
