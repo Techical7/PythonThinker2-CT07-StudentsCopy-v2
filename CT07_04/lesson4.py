@@ -56,3 +56,5 @@ while True:
 
     if(country.lower() == "end"):
         break
+
+    countries
