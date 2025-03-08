@@ -1,4 +1,4 @@
 import random
-counter = 100
-
+counter = []
+Health = 100
 Hero_health = counter
