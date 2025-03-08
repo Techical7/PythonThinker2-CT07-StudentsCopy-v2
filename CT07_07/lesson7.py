@@ -29,6 +29,7 @@
 #         print("You have ordered the following:")
 #         print(List)
 
-line = "ROBLOX,USD,0,813345,4.5,Games"
-words = line.split(",")
-print(words[2])
+word = "peanut"
+i = 0
+while i < 10:
+	print(word[i])
