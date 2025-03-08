@@ -14,14 +14,15 @@
 #     print("After fighting monsters, his Health is now:" + Health)
 
 
-#2
+
 List =[]
+
 while True:
     food = input("What would you like to order?")
     if(food == "end"):
         break
     List.append(food)
-#v
+# food you ordered
 for food in List:
         print("You have ordered the following:")
         print(List)
