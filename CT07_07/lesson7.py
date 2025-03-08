@@ -24,5 +24,3 @@ while True:
 
 for food in List:
         print("You have ordered the following:" + List)
-
-        print(food)
