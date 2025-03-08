@@ -14,9 +14,8 @@
 #     print("After fighting monsters, his Health is now:" + Health)
 
 
-
+# 
 List =[]
-
 while True:
     food = input("What would you like to order?")
     if(food == "end"):
