@@ -15,7 +15,9 @@
 
 
 #2
-List = []
+List = [1.
+        2.
+        3.]
 while True:
     food = input("What would you like to order?")
     if(food == "end"):
