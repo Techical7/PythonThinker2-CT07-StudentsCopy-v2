@@ -24,5 +24,5 @@ while True:
     List.append(food)
 # food you ordered
 for food in List:
-        print("You have ordered the following:")
+        print("You have ordered the following:" +str)
         print(List)
