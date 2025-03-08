@@ -1,4 +1,4 @@
 import random
 counter = 100
 
-Her
+Hero_he
