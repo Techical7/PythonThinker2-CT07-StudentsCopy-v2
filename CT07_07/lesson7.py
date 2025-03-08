@@ -2,4 +2,5 @@ import random
 counter = []
 Health = 100
 
-print("")
+print("Hero starts on his adventure with Health: 100")
+random.ra
