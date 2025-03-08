@@ -16,7 +16,7 @@
 
 
 List =[]
-# Store the item you typed in
+# Stores the item you typed in
 while True:
     food = input("What would you like to order?")
     if(food == "end"):
