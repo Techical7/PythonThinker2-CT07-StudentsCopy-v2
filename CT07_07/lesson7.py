@@ -21,7 +21,7 @@ while True:
     if(food == "end"):
         break
     List.append(food)
-
+#v
 for food in List:
         print("You have ordered the following:")
         print(List)
