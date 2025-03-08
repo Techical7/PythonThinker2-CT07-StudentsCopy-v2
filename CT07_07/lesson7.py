@@ -15,14 +15,14 @@
 
 
 
-List =[]
-# Stores the item you typed in
-while True:
-    food = input("What would you like to order?")
-    if(food == "end"):
-        break
-    List.append(food)
-# food you ordered
-for food in List:
-        print("You have ordered the following:" +str)
-        print(List)
+# List =[]
+# # Stores the item you typed in
+# while True:
+#     food = input("What would you like to order?")
+#     if(food == "end"):
+#         break
+#     List.append(food)
+# # food you ordered
+# for food in List:
+#         print("You have ordered the following:")
+#         print(List)
