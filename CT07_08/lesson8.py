@@ -52,7 +52,7 @@
 
 
 
-user_input = input("Give me a sentence")
+se = input("Give me a sentence")
 has_upper = False
 has_lower = False
 
