@@ -54,4 +54,4 @@ else:
 
 user_input = input("Give me a sentence")
 
-input 
+input = input + upper
