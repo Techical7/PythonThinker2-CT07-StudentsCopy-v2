@@ -66,12 +66,12 @@
 
 ## Task 3
 
-sentence = "Computers empower our modern world with their digital brains"
-list = sentence.split()
-print(list)
+# sentence = "Computers empower our modern world with their digital brains"
+# list = sentence.split()
+# print(list)
 
-sentence2 = "Computers,empower,our,modern,world,with,their,digital,brains"
-list2 = sentence2.split(",")
-print(list2)
+# sentence2 = "Computers,empower,our,modern,world,with,their,digital,brains"
+# list2 = sentence2.split(",")
+# print(list2)
 
 ## Task 4
