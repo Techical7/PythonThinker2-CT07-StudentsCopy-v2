@@ -86,4 +86,4 @@
 ## Task 5
 
 text = "Hello World"
-words = text.split()
+words = text.split() ##list
