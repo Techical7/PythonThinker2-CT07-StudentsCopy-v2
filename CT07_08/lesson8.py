@@ -77,3 +77,4 @@
 ## Task 4
 
 words = ['computers', ' empower', ' our', 'modern', 'world', 'with', 'their']
+sentence = ""
