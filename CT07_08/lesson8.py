@@ -64,4 +64,4 @@ for i in Sentence:
         output += i.lower()
         alternate = True
 
-print
+print(output)
