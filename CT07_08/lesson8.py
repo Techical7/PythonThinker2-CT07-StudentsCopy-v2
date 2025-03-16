@@ -93,4 +93,4 @@ for words in reversed(words):
     reversed_words.append(words[::-1])
 
 print(reversed_words) ##list
-reversed_text = ''
+reversed_text = ''.join(reversed_words)
