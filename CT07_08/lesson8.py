@@ -100,4 +100,4 @@
 
 words = ""
 
-is_pali
+is_palidrome = words
