@@ -75,3 +75,5 @@
 # print(list2)
 
 ## Task 4
+
+words = ['']
