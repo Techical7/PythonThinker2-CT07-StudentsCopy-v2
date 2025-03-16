@@ -15,4 +15,4 @@
 # task 1
 
 
-user_input = input
+user_input = input("12345678")
