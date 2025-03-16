@@ -31,4 +31,4 @@ for i in user_input:
 
 for i in user_input:
     if i.isupper() == True:
-        has_upper = True
+        has_lower = True
