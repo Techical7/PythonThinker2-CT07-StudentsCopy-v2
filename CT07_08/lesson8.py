@@ -35,8 +35,8 @@ for i in user_input:
 
 for i in user_input:
     if i.isdigit() == True:
-        has_upper = True
+        has_num = True
 
 for i in user_input:
-    if i.isupper() == True:
+    if i.isal() == True:
         has_upper = True
