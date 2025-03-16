@@ -80,4 +80,5 @@ words = ['computers', ' empower', ' our', 'modern', 'world', 'with', 'their']
 sentence = "".join(words)
 print(sentence)
 
-sentence2 = ","
+sentence2 = ",".join(words)
+print()
