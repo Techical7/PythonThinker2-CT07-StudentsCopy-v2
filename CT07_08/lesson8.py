@@ -53,7 +53,8 @@
 
 
 Sentence = input("Sentence: ")
-output
+output = ""
+
 if has_upper and has_lower is True or False:
         print(input)
 else:
