@@ -101,4 +101,5 @@
 words = ""
 
 is_palidrome = word == word[::1]
-print
+print()
+print()
