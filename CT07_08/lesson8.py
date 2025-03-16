@@ -28,3 +28,7 @@ if len(user_input) >= 8:
 for i in user_input:
     if i.isupper() == True:
         has_upper = True
+
+for i in user_input:
+    if i.isupper() == True:
+        has_upper = True
