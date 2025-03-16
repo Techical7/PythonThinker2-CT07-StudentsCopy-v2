@@ -59,4 +59,5 @@ alternate = True
 for i in Sentence:
     if alternate:
         output += i.upper()
+        alternate = False
         
