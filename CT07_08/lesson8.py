@@ -76,4 +76,4 @@
 
 ## Task 4
 
-words = ['computers', ' empower', ' our', ]
+words = ['computers', ' empower', ' our', 'modern', '']
