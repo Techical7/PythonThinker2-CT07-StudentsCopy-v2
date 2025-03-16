@@ -101,5 +101,5 @@
 words = ""
 
 is_palidrome = word == word[::1]
-print(word == word[::1])
+print(word[::1])
 print(is_palidrome)
