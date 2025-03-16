@@ -30,5 +30,5 @@ for i in user_input:
         has_upper = True
 
 for i in user_input:
-    if i.isloswer() == True:
+    if i.islower() == True:
         has_lower = True
