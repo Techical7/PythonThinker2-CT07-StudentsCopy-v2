@@ -55,7 +55,6 @@ else:
 user_input = input("Give me a sentence")
 
 user_input = input("sentence:")
-long_sentence = False
 has_upper = False
 has_lower = False
 has_num = False
