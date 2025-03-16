@@ -87,4 +87,4 @@
 
 text = "Hello World"
 words = text.split() ##list
-reversed_wp
+reversed_words = []
