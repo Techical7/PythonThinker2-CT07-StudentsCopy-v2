@@ -54,15 +54,4 @@ else:
 
 user_input = input("Give me a sentence")
 
-user_input = input("sentence:")
-has_upper = False
-has_lower = False
-
-for i in user_input:
-    if i.isupper() == True:
-        has_upper = True
-
-for i in user_input:
-    if i.islower() == True:
-        has_lower = True
-
+input 
