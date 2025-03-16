@@ -38,5 +38,5 @@ for i in user_input:
         has_num = True
 
 for i in user_input:
-    if i.isal() == True:
-        has_upper = True
+    if i.isalnum() == True:
+        has_alnum= True
