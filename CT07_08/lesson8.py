@@ -76,10 +76,10 @@
 
 ## Task 4
 
-words = ['Computers', 'empower', 'our', 'modern', 'world', 'with', 'their', 'digital', 'brains.']
-sentence = "".join(words)
-print(sentence)
+# words = ['Computers', 'empower', 'our', 'modern', 'world', 'with', 'their', 'digital', 'brains.']
+# sentence = "".join(words)
+# print(sentence)
 
-sentence2 = ",".join(words)
-print(sentence2)
+# sentence2 = ",".join(words)
+# print(sentence2)
 
