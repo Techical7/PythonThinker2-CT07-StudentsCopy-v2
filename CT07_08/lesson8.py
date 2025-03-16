@@ -56,3 +56,7 @@ user_input = input("Give me a sentence")
 has_upper = False
 has_lower = False
 
+if has_upper and has_lower is True or False:
+        print("Password is valid")
+else:
+    print("Invalid")
