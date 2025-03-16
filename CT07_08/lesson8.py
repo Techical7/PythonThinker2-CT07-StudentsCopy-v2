@@ -56,7 +56,6 @@ Sentence = input("Sentence: ")
 output = ""
 alternate = True
 
-if has_upper and has_lower is True or False:
-        print(input)
-else:
-    print("Invalid")
+for i in Sentence:
+    if alternate:
+        output
