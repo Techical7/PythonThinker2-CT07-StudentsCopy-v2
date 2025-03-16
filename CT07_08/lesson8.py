@@ -105,4 +105,4 @@ print(word[::1])
 print(is_palidrome)
 
 while True:
-    sentence = input
+    sentence = input("Sentence: ")
