@@ -34,7 +34,7 @@ for i in user_input:
         has_lower = True
 
 for i in user_input:
-    if i.isupper() == True:
+    if i.isdigit() == True:
         has_upper = True
 
 for i in user_input:
