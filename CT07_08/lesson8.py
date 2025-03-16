@@ -92,4 +92,4 @@ reversed_words = []
 for words in reversed(words):
     reversed_words.append(words[::-1])
 
-print
+print(reversed_words) ##list
