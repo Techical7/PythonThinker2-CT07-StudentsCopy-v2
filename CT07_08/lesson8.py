@@ -76,7 +76,7 @@
 
 ## Task 4
 
-words = ['computers', 'empower', 'our', 'modern', 'world', 'with', 'their']
+words = ['Computers', 'empower', 'our', 'modern', 'world', 'with', 'their', 'digital', 'brains.']
 sentence = "".join(words)
 print(sentence)
 
