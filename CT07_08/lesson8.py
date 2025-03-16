@@ -10,4 +10,4 @@ left = total_list[:mid_point]
 right = total_list[mid_point:]
 
 print(left)
-print
+print(right)
