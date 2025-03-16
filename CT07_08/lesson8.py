@@ -47,3 +47,9 @@ for i in user_input:
         print("Password is valid")
 else:
     print("Invalid")
+
+
+
+
+
+
