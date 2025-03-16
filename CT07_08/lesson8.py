@@ -17,6 +17,4 @@
 
 user_input = input("Enter password:")
 
-true = "PassW0rd"
-if input == true:
-    print("")
+password
