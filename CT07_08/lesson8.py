@@ -81,4 +81,5 @@ sentence = "".join(words)
 print(sentence)
 
 sentence2 = ",".join(words)
-print()
+print(sentence2)
+
