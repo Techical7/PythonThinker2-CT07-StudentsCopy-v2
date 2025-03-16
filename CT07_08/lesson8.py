@@ -57,6 +57,6 @@ has_upper = False
 has_lower = False
 
 if has_upper and has_lower is True or False:
-        print()
+        print(input)
 else:
     print("Invalid")
