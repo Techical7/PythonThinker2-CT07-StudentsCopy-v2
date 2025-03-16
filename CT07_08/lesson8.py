@@ -40,3 +40,5 @@ for i in user_input:
 for i in user_input:
     if i.isalnum() == True:
         has_alnum= True
+
+        is_8char_long
