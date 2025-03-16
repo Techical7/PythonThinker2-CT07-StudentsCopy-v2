@@ -94,4 +94,4 @@ for words in reversed(words):
 
 print(reversed_words) ##list
 reversed_text = ''.join(reversed_words) ## convert list to string
-print
+print(reversed_words)
