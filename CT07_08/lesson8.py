@@ -61,4 +61,5 @@ for i in Sentence:
         output += i.upper()
         alternate = False
     else:
-        output += i.lower
+        output += i.lower()
+        alternate = 
