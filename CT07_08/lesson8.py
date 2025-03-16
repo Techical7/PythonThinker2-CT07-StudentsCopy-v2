@@ -12,41 +12,41 @@
 # print(left)
 # print(right)
 
-# task 1
+# # task 1
 
 
-user_input = input("Password:")
-is_8char_long = False
-has_upper = False
-has_lower = False
-has_num = False
-only_alnum = False
+# user_input = input("Password:")
+# is_8char_long = False
+# has_upper = False
+# has_lower = False
+# has_num = False
+# only_alnum = False
 
-if len(user_input) >= 8:
-    is_8char_long  = True
+# if len(user_input) >= 8:
+#     is_8char_long  = True
 
-for i in user_input:
-    if i.isupper() == True:
-        has_upper = True
+# for i in user_input:
+#     if i.isupper() == True:
+#         has_upper = True
 
-for i in user_input:
-    if i.islower() == True:
-        has_lower = True
+# for i in user_input:
+#     if i.islower() == True:
+#         has_lower = True
 
-for i in user_input:
-    if i.isdigit() == True:
-        has_num = True
+# for i in user_input:
+#     if i.isdigit() == True:
+#         has_num = True
 
-for i in user_input:
-    if i.isalnum() == True:
-        has_alnum= True
+# for i in user_input:
+#     if i.isalnum() == True:
+#         has_alnum= True
 
 
 
-    if is_8char_long and has_upper and has_lower and has_num is True:
-        print("Password is valid")
-else:
-    print("Invalid")
+#     if is_8char_long and has_upper and has_lower and has_num is True:
+#         print("Password is valid")
+# else:
+#     print("Invalid")
 
 
 
