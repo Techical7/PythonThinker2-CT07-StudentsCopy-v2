@@ -17,4 +17,6 @@
 
 user_input = input("Enter password:")
 
-true = PassW0rd 
+true = "PassW0rd"
+if input == true:
+    print("asse")
