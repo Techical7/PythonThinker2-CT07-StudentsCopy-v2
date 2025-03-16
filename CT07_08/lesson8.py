@@ -76,4 +76,4 @@
 
 ## Task 4
 
-words = ['computers', ' ']
+words = ['computers', ' empower', ' ']
