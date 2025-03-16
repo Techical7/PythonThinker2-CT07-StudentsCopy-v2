@@ -66,9 +66,3 @@ for i in user_input:
     if i.islower() == True:
         has_lower = True
 
-
-    if is_8char_long and has_upper and has_lower and has_num is True:
-        print("Password is valid")
-else:
-    print("Invalid")
-
