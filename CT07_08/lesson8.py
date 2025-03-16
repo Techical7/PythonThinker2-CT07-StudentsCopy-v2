@@ -98,7 +98,7 @@
 
 ## Task 6
 
-words = "mom"
+word = "mom"
 
 is_palidrome = word == word[::1]
 print(word[::1])
