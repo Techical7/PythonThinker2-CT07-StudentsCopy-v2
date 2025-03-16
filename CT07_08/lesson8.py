@@ -50,18 +50,16 @@
 
 
 
+# Sentence = input("Sentence: ")
+# output = ""
+# alternate = True
 
+# for i in Sentence:
+#     if alternate:
+#         output += i.upper()
+#         alternate = False
+#     else:
+#         output += i.lower()
+#         alternate = True
 
-Sentence = input("Sentence: ")
-output = ""
-alternate = True
-
-for i in Sentence:
-    if alternate:
-        output += i.upper()
-        alternate = False
-    else:
-        output += i.lower()
-        alternate = True
-
-print(output)
+# print(output)
