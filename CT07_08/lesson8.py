@@ -90,4 +90,4 @@ words = text.split() ##list
 reversed_words = []
 
 for words in reversed(words):
-    reversed_words.append(words)
+    reversed_words.append(words[::-1])
