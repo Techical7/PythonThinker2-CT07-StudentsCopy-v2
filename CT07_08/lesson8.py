@@ -64,6 +64,8 @@
 
 # print(output)
 
+## Task 3
+
 sentence = "Computers empower our modern world with their digital brains"
 list = sentence.split()
 print(list)
