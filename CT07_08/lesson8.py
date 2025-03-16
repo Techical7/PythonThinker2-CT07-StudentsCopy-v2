@@ -98,5 +98,4 @@
 
 ## Task 6
 
-words
-words
+words = ""
