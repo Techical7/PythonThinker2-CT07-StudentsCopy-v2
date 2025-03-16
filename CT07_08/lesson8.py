@@ -76,4 +76,4 @@
 
 ## Task 4
 
-words = ['']
+words = ['computers', ' ']
