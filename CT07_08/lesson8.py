@@ -100,4 +100,5 @@
 
 words = ""
 
-is_palidrome = word == wprd[::1]
+is_palidrome = word == word[::1]
+print
