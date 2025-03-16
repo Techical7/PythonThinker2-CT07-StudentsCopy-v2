@@ -52,7 +52,7 @@
 
 
 
-se = input("Give me a sentence")
+Sentence = input("Give me a sentence")
 has_upper = False
 has_lower = False
 
