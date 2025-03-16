@@ -52,9 +52,4 @@ else:
 
 
 
-
-for i in user_input:
-    if i.supper() == True:
-        has_upper == True
-
     
