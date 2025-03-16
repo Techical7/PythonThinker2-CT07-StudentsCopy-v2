@@ -66,4 +66,6 @@
 
 sentence = "Computers empower our modern world with their digital brains"
 list = sentence.split()
-print()
+print(list)
+
+sentence2 = "Computers,empower,our,modern,world,with,their,digital,brains"
