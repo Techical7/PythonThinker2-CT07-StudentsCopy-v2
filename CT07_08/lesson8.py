@@ -6,4 +6,4 @@ list3 = [9, 8, 7]
 
 total_list = sorted(set(list1+list2+list3))
 mid_point = len(total_list)//2
-left = merge
+left = merged_list[:mid]
