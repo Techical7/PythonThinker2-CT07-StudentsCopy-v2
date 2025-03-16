@@ -52,4 +52,4 @@ else:
 
 
 
-input
+user_input = input()
