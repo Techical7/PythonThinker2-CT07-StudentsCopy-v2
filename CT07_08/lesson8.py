@@ -69,4 +69,5 @@ list = sentence.split()
 print(list)
 
 sentence2 = "Computers,empower,our,modern,world,with,their,digital,brains"
-list2 = sentence2.split("")
+list2 = sentence2.split(",")
+print
