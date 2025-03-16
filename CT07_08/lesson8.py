@@ -16,5 +16,6 @@
 
 
 user_input = input("Enter password:")
-
-password
+is_8char_long = False
+has_upper = False
+has_lower = False
