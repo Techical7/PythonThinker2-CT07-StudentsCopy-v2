@@ -53,9 +53,6 @@
 
 
 user_input = input("Give me a sentence")
-
-
 has_upper = False
 has_lower = False
 
-input = input + has.upper() + has.lower()
