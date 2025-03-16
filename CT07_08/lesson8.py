@@ -88,3 +88,6 @@
 text = "Hello World"
 words = text.split() ##list
 reversed_words = []
+
+for words in reversed(words):
+    reversed
