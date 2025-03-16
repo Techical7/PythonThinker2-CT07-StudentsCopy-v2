@@ -99,3 +99,5 @@
 ## Task 6
 
 words = ""
+
+is_pali
