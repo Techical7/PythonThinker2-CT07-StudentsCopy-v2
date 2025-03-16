@@ -54,7 +54,7 @@ else:
 
 user_input = input("Give me a sentence")
 
-user_input = input("Password:")
+user_input = input("sentence:")
 is_8char_long = False
 has_upper = False
 has_lower = False
