@@ -64,3 +64,4 @@
 
 # print(output)
 
+sentence = "computers em[]"
