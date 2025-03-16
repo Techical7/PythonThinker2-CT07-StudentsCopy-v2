@@ -64,4 +64,5 @@
 
 # print(output)
 
-sentence = "computers em[]"
+sentence = "Computers,empower,our,modern,world,with,their,digital,brains"
+list
