@@ -23,4 +23,5 @@ has_num = False
 only_alnum = False
 
 if len(user_input) >= 8:
-    is_8char_long  = true
+    is_8char_long  = True
+
