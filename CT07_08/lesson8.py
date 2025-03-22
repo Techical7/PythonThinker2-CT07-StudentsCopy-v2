@@ -110,8 +110,8 @@
 
 # Task 7
 
-Word = input("Give me a word: ")
-text = Word
+Word1 = input("Give me a word: ")
+text = Word1
 words = text.split() ##list
 reversed_words = []
 
