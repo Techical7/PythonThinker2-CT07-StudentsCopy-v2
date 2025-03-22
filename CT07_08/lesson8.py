@@ -127,17 +127,4 @@ while True:
     is_palidrome = Sentence == Sentence[::1]
     print(Sentence[::1])
     print(is_palidrome)
-counter = Counter +1
-# Task 8
-# Counter = 0
-# while True:
-#     Sentence = input("Give me a sentence: ")
-#     if(Sentence=="end"):
-#         break
-
-#     is_palidrome = Sentence == Sentence[::1]
-#     print(Sentence[::1])
-#     print(is_palidrome)
-# Counter = Counter +1
-
-
+Counter = Counter +1
