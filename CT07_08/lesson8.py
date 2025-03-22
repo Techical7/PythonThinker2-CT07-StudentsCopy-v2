@@ -174,7 +174,7 @@
 
 # Challenge 2
 
-print("Enter 'a '")
+print("Enter 'a' to add, ")
 print("")
 print("")
 print("")
