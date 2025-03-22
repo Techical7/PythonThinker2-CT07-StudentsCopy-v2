@@ -126,7 +126,7 @@ while True:
 
     is_palidrome = Sentence == Sentence[::1]
     print(Sentence[::1])
-    print
+    print(is)
 # Task 8
 # Counter = 0
 # while True:
