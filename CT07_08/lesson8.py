@@ -121,3 +121,10 @@ while True:
 
 # Task 8
 
+while True:
+    S = input()
+    if(word=="end"):
+        break
+    is_palidrome = word == word[::1]
+    print(word[::1])
+    print(is_palidrome)
