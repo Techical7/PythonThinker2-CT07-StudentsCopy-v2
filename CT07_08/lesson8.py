@@ -106,8 +106,6 @@ print(is_palidrome)
 
 while True:
     sentence = input("Sentence: ")
-
-
 text = "Hello World"
 words = text.split() ##list
 reversed_words = []
