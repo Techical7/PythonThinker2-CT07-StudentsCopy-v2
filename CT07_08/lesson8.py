@@ -174,7 +174,7 @@
 
 # Challenge 2
 
-print("Enter 'a' to add, 's' to search, 'd' to display")
+print("Enter 'a' to add, 's' to search, 'd' to display, or 'q' to quit:")
 print("")
 print("")
 print("")
