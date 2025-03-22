@@ -176,5 +176,5 @@ for i in range(3):
 
 
 print("Top 1 fruit:" + sales_data[top3[0]][0] + str(sales_data[top3[0]][1]))
-print("Top 1 fruit:" + sales_data[top3[0]][0])
-print("Top 1 fruit:" + sales_data[top3[0]][0])
+print("Top 1 fruit:" + sales_data[top3[1]][0])
+print("Top 1 fruit:" + sales_data[top3[2]][0])
