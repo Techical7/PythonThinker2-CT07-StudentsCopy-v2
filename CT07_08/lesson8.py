@@ -106,9 +106,5 @@ print(is_palidrome)
 
 while True:
     sentence = input("Sentence: ")
-# for words in reversed(words):
-#     reversed_words.append(words[::-1])
 
-# print(reversed_words) ##list
-# reversed_text = ''.join(reversed_words) ## convert list to string
-# print(reversed_words)
+
