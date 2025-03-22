@@ -146,12 +146,10 @@ print(Counter)
 # print(Counter)
 
 sales_data=[
-    ["Apple",50,1.99],
-    ["Banana",40,0.99],
-    ["Orange",30,2.99],
-    ["Grapefruit",25,4.99],
-    ["Mange",20,3.99]
+    ["Apple",50,1.99],# = 99.50
+    ["Banana",40,0.99],# = 39.60
+    ["Orange",30,2.99],# = 89.70
+    ["Grapefruit",25,4.99],# = 124.75
+    ["Mange",20,3.99]# = 79.80
 ]
 
-Grapefruits
-Apple
