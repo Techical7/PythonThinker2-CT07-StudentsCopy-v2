@@ -121,7 +121,7 @@ while True:
 
 # Task 8
 while True:
-    Sentence = input()
+    Sentence = input("Give me a sentence: ")
     if(Sentence=="end"):
         break
     is_palidrome = word == word[::1]
