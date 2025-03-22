@@ -120,8 +120,6 @@ while True:
 # print(reversed_words)
 
 # Task 8
-input("Give me a sentence: ")
-
 while True:
     Sentence = input()
     if(Sentence=="end"):
