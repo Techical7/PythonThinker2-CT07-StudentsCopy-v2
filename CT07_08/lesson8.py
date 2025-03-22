@@ -153,7 +153,4 @@ sales_data=[
     ["Mange",20,3.99]# = 79.80
 ]
 
-print["Top 3 selling Fruits:"
-      
-      
-]
+print("Top 3 selling Fruits:")
