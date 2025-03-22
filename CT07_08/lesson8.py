@@ -118,3 +118,5 @@ while True:
 # print(reversed_words) ##list
 # reversed_text = ''.join(reversed_words) ## convert list to string
 # print(reversed_words)
+
+# Tak
