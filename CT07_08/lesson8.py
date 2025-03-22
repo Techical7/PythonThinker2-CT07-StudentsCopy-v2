@@ -121,6 +121,8 @@
 Counter = 0
 while True:
     Sentence = input("Give me a sentence: ")
+    if(Sentence=="end"):
+        break
 # Task 8
 # Counter = 0
 # while True:
