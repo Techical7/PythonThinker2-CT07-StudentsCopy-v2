@@ -175,7 +175,7 @@
 # Challenge 2
 
 print("Enter 'a' to add, 's' to search, 'd' to display, or 'q' to quit: ")
-print("")
+input("Enter ")
 print("")
 print("")
 print("")
