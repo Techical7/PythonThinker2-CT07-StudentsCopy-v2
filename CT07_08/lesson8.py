@@ -171,4 +171,4 @@ for item in sales_data:
 for i in range(3):
     highest = max(price)
     index_of_higest = price.index(highest)
-    top3.append
+    top3.append(index)
