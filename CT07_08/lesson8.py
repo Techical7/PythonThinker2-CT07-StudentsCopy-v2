@@ -152,6 +152,7 @@ sales_data=[
     ["Grapefruit",25,4.99],# = 124.75
     ["Mange",20,3.99]# = 79.80
 ]
+
 price=[]
 top3 = []
 
