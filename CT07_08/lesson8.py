@@ -110,4 +110,4 @@
 
 # Task 7
 
-Word = input("")
+Word = input("Give me a word: ")
