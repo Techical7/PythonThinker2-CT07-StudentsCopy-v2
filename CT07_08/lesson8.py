@@ -145,30 +145,31 @@
 #             Counter = Counter + 1
 # print(Counter)
 
-sales_data=[
-    ["Apple",50,1.99],# = 99.50
-    ["Banana",40,0.99],# = 39.60
-    ["Orange",30,2.99],# = 89.70
-    ["Grapefruit",25,4.99],# = 124.75
-    ["Mange",20,3.99]# = 79.80
-]
 
-price=[]
-top3 = []
+# sales_data=[
+#     ["Apple",50,1.99],# = 99.50
+#     ["Banana",40,0.99],# = 39.60
+#     ["Orange",30,2.99],# = 89.70
+#     ["Grapefruit",25,4.99],# = 124.75
+#     ["Mange",20,3.99]# = 79.80
+# ]
 
-for item in sales_data:
-    price.append(item[1]*item[2])
+# price=[]
+# top3 = []
 
-for i in range(3):
-    highest = max(price)
-    index_of_highest = price.index(highest)
-    top3.append(index_of_highest)
-    price[index_of_highest]
+# for item in sales_data:
+#     price.append(item[1]*item[2])
+
+# for i in range(3):
+#     highest = max(price)
+#     index_of_highest = price.index(highest)
+#     top3.append(index_of_highest)
+#     price[index_of_highest]
 
 
-print("Top 1 fruit:" + sales_data[top3[0]][0] + str(sales_data[top3[0]][1]))
-print("Top 1 fruit:" + sales_data[top3[1]][0])
-print("Top 1 fruit:" + sales_data[top3[2]][0])
+# print("Top 1 fruit:" + sales_data[top3[0]][0] + str(sales_data[top3[0]][1]))
+# print("Top 1 fruit:" + sales_data[top3[1]][0])
+# print("Top 1 fruit:" + sales_data[top3[2]][0])
 
 
 
