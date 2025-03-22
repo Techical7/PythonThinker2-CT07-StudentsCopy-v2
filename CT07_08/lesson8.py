@@ -129,3 +129,4 @@ while True:
     print(Sentence[::1])
     print(is_palidrome)
 Counter = Counter +1
+
