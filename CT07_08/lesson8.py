@@ -97,13 +97,13 @@
 # print(reversed_words)
 
 # # Task 6
-while True:
-    word = input()
-    if(word=="end"):
-        break
-    is_palidrome = word == word[::1]
-    print(word[::1])
-    print(is_palidrome)
+# while True:
+#     word = input()
+#     if(word=="end"):
+#         break
+#     is_palidrome = word == word[::1]
+#     print(word[::1])
+#     print(is_palidrome)
 
 # # Task 7
 
