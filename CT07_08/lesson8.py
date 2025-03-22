@@ -152,16 +152,6 @@ sales_data=[
     ["Grapefruit",25,4.99],# = 124.75
     ["Mange",20,3.99]# = 79.80
 ]
-
-sales_data == ()
-
-
-print(
-    ["Grapefruit",25,4.99],# = 124.75
-    ["Apple",50,1.99],# = 99.50
-    ["Orange",30,2.99],# = 89.70
-)
-
 price=[]
 top3 = []
 
@@ -178,3 +168,6 @@ for i in range(3):
 print("Top 1 fruit:" + sales_data[top3[0]][0] + str(sales_data[top3[0]][1]))
 print("Top 1 fruit:" + sales_data[top3[1]][0])
 print("Top 1 fruit:" + sales_data[top3[2]][0])
+
+
+
