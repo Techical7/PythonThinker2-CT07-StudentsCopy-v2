@@ -108,3 +108,4 @@
 #     sentence = input("Sentence: ")
 
 
+# Task 7
