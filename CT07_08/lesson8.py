@@ -172,7 +172,5 @@
 # print("Top 1 fruit:" + sales_data[top3[1]][0])
 # print("Top 1 fruit:" + sales_data[top3[2]][0])
 
-
-
 # Challenge 2
 
