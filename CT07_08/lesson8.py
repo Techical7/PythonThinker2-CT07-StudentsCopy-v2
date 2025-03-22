@@ -126,7 +126,6 @@ while True:
     Sentence = input("Give me a sentence: ")
     if(Sentence=="end"):
         break
-
     words = Sentence.split()
     for word in words:
         if(Sentence == Sentence[::1]):
