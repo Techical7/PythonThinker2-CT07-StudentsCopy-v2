@@ -175,6 +175,6 @@ for i in range(3):
     price[index_of_highest]
 
 
-print("Top 1 fruit")
+print("Top 1 fruit:" + sales_data[top3])
 print
 print
