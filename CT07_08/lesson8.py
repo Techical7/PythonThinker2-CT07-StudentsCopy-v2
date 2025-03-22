@@ -110,3 +110,4 @@
 
 # Task 7
 
+Word = input("")
