@@ -176,7 +176,7 @@
 
 print("Enter 'a' to add, 's' to search, 'd' to display, or 'q' to quit: ")
 input("Enter your username: ")
-print("")
+print("Enter your password: ")
 print("")
 print("")
 print("")
