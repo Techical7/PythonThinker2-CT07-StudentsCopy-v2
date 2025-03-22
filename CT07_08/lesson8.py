@@ -83,18 +83,18 @@
 # sentence2 = ",".join(words)
 # print(sentence2)
 
-# Task 5
+# # Task 5
 
-text = "Hello World"
-words = text.split() ##list
-reversed_words = []
+# text = "Hello World"
+# words = text.split() ##list
+# reversed_words = []
 
-for words in reversed(words):
-    reversed_words.append(words[::-1])
+# for words in reversed(words):
+#     reversed_words.append(words[::-1])
 
-print(reversed_words) ##list
-reversed_text = ''.join(reversed_words) ## convert list to string
-print(reversed_words)
+# print(reversed_words) ##list
+# reversed_text = ''.join(reversed_words) ## convert list to string
+# print(reversed_words)
 
 ## Task 6
 
@@ -104,7 +104,7 @@ print(reversed_words)
 # print(word[::1])
 # print(is_palidrome)
 
-# while True:
-#     sentence = input("Sentence: ")
+while True:
+    sentence = input("Sentence: ")
 
 
