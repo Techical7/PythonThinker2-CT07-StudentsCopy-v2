@@ -123,7 +123,7 @@ while True:
 
 while True:
     Sentence = input()
-    if(word=="end"):
+    if(Sentence=="end"):
         break
     is_palidrome = word == word[::1]
     print(word[::1])
