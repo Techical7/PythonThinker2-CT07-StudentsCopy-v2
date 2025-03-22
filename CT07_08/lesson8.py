@@ -145,7 +145,7 @@ while True:
             Counter = Counter + 1
 print(Counter)
 
-
-
-
-saaaaaaaaaaa
+sa
+sas
+assasas
+saaaaaaaaaaaaa
