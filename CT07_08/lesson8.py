@@ -128,4 +128,4 @@ while True:
     is_palidrome = Sentence == Sentence[::1]
     print(Sentence[::1])
     print(is_palidrome)
-counter = Counter+1
+Counter = Counter+1
