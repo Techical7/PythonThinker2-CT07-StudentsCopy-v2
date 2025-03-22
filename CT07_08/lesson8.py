@@ -153,5 +153,7 @@ sales_data=[
     ["Mange",20,3.99]# = 79.80
 ]
 
+sales_data
+
 print("Top 3 selling Fruits:")
 
