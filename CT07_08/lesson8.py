@@ -127,9 +127,13 @@ while True:
     if(Sentence=="end"):
         break
 
-    is_palidrome = Sentence == Sentence[::1]
-    print(Sentence[::1])
-Counter = Counter +1
+    words = Sentence.split()
+    for word in words:
+        if(Sentence == Sentence[::1]):
+            Counter = Counter + 1
+print(Counter)
+
+
 
 Counter = 0
 while True:
