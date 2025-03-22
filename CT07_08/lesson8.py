@@ -119,7 +119,6 @@
 # reversed_text = ''.join(reversed_words) ## convert list to string
 # print(reversed_words)
 
-
 # Task 8
 
 Counter = 0
@@ -132,3 +131,4 @@ while True:
     print(Sentence[::1])
     print(is_palidrome)
 Counter = Counter +1
+
