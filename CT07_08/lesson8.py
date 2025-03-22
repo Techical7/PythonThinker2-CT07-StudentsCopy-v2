@@ -156,7 +156,7 @@ sales_data=[
 sales_data == ()
 
 
-sales_data=[
+print[
     ["Apple",50,1.99],# = 99.50
     ["Banana",40,0.99],# = 39.60
     ["Orange",30,2.99],# = 89.70
