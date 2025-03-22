@@ -125,6 +125,7 @@ while True:
     Sentence = input("Give me a sentence: ")
     if(Sentence=="end"):
         break
+
     is_palidrome = Sentence == Sentence[::1]
     print(Sentence[::1])
     print(is_palidrome)
