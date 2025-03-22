@@ -111,7 +111,7 @@
 # Task 7
 
 Word = input("Give me a word: ")
-text = "Hello World"
+text = Word
 words = text.split() ##list
 reversed_words = []
 
