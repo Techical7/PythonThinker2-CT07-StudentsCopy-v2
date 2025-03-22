@@ -160,9 +160,5 @@ print("Top 3 selling Fruits:"
 ["Grapefruit",25,4.99],# = 124.75
 ["Apple",50,1.99],# = 99.50
 ["Orange",30,2.99],# = 89.70
-
-
-
-
 )
 
