@@ -125,6 +125,7 @@ while True:
         break
 
     is_palidrome = Sentence == Sentence[::1]
+    print(Sentence)
 # Task 8
 # Counter = 0
 # while True:
