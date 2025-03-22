@@ -144,3 +144,8 @@ while True:
         if(Sentence == Sentence[::1]):
             Counter = Counter + 1
 print(Counter)
+
+
+
+
+saaaaaaaaaaa
