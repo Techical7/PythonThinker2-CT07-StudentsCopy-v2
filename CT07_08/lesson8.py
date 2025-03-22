@@ -174,15 +174,16 @@
 
 # Challenge 2
 
-print("Enter 'a' to add, 's' to search, 'd' to display, or 'q' to quit: ")
-input("Enter your username: ")
+Start = input("Enter 'a' to add, 's' to search, 'd' to display, or 'q' to quit: ")
+if Start == 'a':
+    input("Enter your username: ")
 input("Enter your password: ")
-# print("")
-# print("")
-# print("")
-# print("")
-# print("")
-# print("")
-# print("")
-# print("")
-# print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
