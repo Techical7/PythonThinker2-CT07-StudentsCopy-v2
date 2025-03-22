@@ -124,7 +124,7 @@ while True:
     if(Sentence=="end"):
         break
 
-    is_palidrome = Sentence
+    is_palidrome = Sentence == Sentence[::1]
 # Task 8
 # Counter = 0
 # while True:
