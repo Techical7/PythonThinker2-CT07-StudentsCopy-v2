@@ -120,7 +120,7 @@
 # print(reversed_words)
 
 # Task 8
-Counter = []
+Counter = 0
 while True:
     Sentence = input("Give me a sentence: ")
     if(Sentence=="end"):
