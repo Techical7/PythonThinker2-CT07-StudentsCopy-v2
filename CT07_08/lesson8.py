@@ -165,3 +165,5 @@ print(
 price=[]
 top3 = []
 
+for item in sales_data:
+    price
