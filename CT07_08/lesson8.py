@@ -153,4 +153,3 @@ sales_data=[
     ["Mange",20,3.99]
 ]
 
-gg
