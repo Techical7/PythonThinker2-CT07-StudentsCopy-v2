@@ -105,7 +105,7 @@ while True:
     print(word[::1])
     print(is_palidrome)
 
-# Task 7
+# # Task 7
 
 # Word1 = input("Give me a word: ")
 # text = Word1
