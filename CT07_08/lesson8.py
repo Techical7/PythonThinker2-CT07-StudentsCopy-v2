@@ -145,7 +145,3 @@ while True:
             Counter = Counter + 1
 print(Counter)
 
-sa
-sas
-assasas
-saaaaaaaaaaaaa
