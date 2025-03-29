@@ -176,14 +176,12 @@
 
 Start = input("Enter 'a' to add, 's' to search, 'd' to display, or 'q' to quit: ")
 if Start == 'a':
-    input("Enter your username: ")
-input("Enter your password: ")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
+    User = input("Enter your username: ")
+    Password = input("Enter your password: ")
+if Start == 's'
+
+if Start == 'd'
+
+if Start == 'q'
+
+
