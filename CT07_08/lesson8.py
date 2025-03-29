@@ -172,16 +172,16 @@
 # print("Top 1 fruit:" + sales_data[top3[1]][0])
 # print("Top 1 fruit:" + sales_data[top3[2]][0])
 
-# Challenge 2
+# # Challenge 2
 
-Start = input("Enter 'a' to add, 's' to search, 'd' to display, or 'q' to quit: ")
-if Start == 'a':
-    User = input("Enter your username: ")
-    Password = input("Enter your password: ")
-if Start == 's'
+# Start = input("Enter 'a' to add, 's' to search, 'd' to display, or 'q' to quit: ")
+# if Start == 'a':
+#     User = input("Enter your username: ")
+#     Password = input("Enter your password: ")
+# if Start == 's'
 
-if Start == 'd'
+# if Start == 'd'
 
-if Start == 'q'
+# if Start == 'q'
 
 
