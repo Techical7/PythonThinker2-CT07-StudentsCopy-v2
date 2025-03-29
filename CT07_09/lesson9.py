@@ -18,4 +18,4 @@ userInput = input("What has to be broken before you can use it? ")
 
 isCorrect = False
 
-lowercase_sentence = user
+lowercase_sentence = userInput.lower()
