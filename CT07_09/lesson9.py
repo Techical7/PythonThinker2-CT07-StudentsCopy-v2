@@ -21,4 +21,4 @@
 import turtle
 turtle.Screen()
 turtle.setup(width= 24, height= 26)
-turtle.bgcolor
+turtle.bgcolor("for")
