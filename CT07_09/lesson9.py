@@ -47,6 +47,10 @@ pen.color("yellow")
 pen.hideturtle()
 
 sally = turtle.Turtle()
-pen.penup
+pen.penup()
+
+
+
+
 
 window.mainloop()
