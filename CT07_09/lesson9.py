@@ -46,6 +46,9 @@ pen.forward(600)
 pen.color("yellow")
 pen.hideturtle()
 
+sally = turtle
+
+
 
 
 
