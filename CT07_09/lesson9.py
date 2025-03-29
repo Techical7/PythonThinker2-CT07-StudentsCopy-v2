@@ -11,4 +11,4 @@ else:
 if isCorrect == True:
     print("Correct! Well done")
 else:
-    print()
+    print("That's")
