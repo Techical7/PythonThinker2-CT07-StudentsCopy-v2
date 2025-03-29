@@ -50,7 +50,7 @@ sally = turtle.Turtle()
 sally.penup()
 sally.seth()
 sally.shape()
-sally.color()
+sally.color(red)
 sally.goto(0,250)
 sally.write("Sally", align="centre", font=('Arial',20))
 
