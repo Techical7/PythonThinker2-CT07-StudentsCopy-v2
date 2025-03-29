@@ -24,7 +24,7 @@ window = turtle.Screen()
 window.setup(width= 600, height= 600)
 window.screen.bgcolor("#43C7A8")
 
-Pen = turtle.turutle
+Pen = turtle.turtle
 pen.penup()
 turtle.seth
 turtle.stamp
