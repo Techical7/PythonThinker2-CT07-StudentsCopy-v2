@@ -6,7 +6,7 @@ if input == "egg":
 
 isCorrect = False
 
-for i in range(1):
+for i in range():
     isCorrect = True
 else:
     isCorrect = False
