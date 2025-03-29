@@ -22,4 +22,4 @@ import turtle
 
 window = turtle.Screen()
 window.setup(width= 600, height= 600)
-window.screen.bgcolor("#43")
+window.screen.bgcolor("#43C7A8")
