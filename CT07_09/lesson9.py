@@ -30,13 +30,14 @@ pen.seth
 pen.shape("square")
 pen.color("yellow")
 pen.sety(250)
-pen.goto(-300,-250)
+
 
 
 for i in range(-290,310,25):
     pen.setx(i)
     pen.stamp()
 
+pen.goto(-300,-250)
 
 
 window.mainloop()
