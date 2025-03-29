@@ -50,8 +50,8 @@ sally = turtle.Turtle()
 pen.penup()
 pen.seth()
 pen.shape()
-
-
+pen.color()
+pen.goto()
 
 
 window.mainloop()
