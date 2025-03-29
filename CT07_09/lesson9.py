@@ -20,7 +20,7 @@
 
 import turtle
 
-guess = input
+guess = input("Guess the winner!")
 window = turtle.Screen()
 window.setup(600,600)
 window.screen.bgcolor("#43C7A8")
