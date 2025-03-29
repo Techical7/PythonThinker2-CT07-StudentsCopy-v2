@@ -20,7 +20,6 @@
 
 import turtle
 
-guess = input("Guess the winner!")
 window = turtle.Screen()
 window.setup(600,600)
 window.screen.bgcolor("#43C7A8")
@@ -69,5 +68,7 @@ Keith.shape("turtle")
 Keith.color("white")
 Keith.goto(200,-250)
 Keith.write("Keith", align="centre", font=('Arial',20))
+
+guess = input("Guess the winner!")
 
 window.mainloop()
