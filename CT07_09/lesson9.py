@@ -27,4 +27,4 @@ for word in splitted_sentence:
         isCorrect = True
 
 if isCorrect:
-    print("Correct")
+    print("Correct! Well Done.")
