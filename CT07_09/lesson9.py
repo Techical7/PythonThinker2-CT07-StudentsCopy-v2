@@ -1,3 +1,3 @@
 # print("Hello from lesson 9")
 
-input("")
+input("What has to be broken before you can use it")
