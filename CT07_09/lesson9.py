@@ -20,4 +20,4 @@
 
 import turtle
 turtle.Screen()
-.setup(width)
+turtle.setup(width= 24, height= 26)
