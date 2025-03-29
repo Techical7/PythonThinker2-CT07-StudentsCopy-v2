@@ -27,7 +27,6 @@ window.screen.bgcolor("#43C7A8")
 pen = turtle.turtle
 pen.penup()
 turtle.seth
-turtle.stamp
 turtle.shape("square")
 turtle.sety(250)
 
@@ -35,6 +34,7 @@ turtle.sety(250)
 
 for i in range(290,310,25):
     pen.setx(i)
+    pen.stamp
 
 
 
