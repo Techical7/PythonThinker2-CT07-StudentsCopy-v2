@@ -29,7 +29,7 @@ turtle.stamp
 turtle.shape("square")
 turtle.sety(250)
 
-
+pen.penup
 
 
 
