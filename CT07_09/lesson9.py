@@ -49,7 +49,4 @@ pen.hideturtle()
 sally = turtle.Turtle()
 
 
-
-
-
 window.mainloop()
