@@ -49,7 +49,7 @@ pen.hideturtle()
 sally = turtle.Turtle()
 pen.penup()
 pen.seth()
-
+pen.shape()
 
 
 
