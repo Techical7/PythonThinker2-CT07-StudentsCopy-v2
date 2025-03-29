@@ -51,7 +51,7 @@ sally.penup()
 sally.seth()
 sally.shape()
 sally.color()
-sally.goto()
+sally.goto(0,250)
 sally.write("Sally", align="centre", font=('Arial',20))
 
 window.mainloop()
