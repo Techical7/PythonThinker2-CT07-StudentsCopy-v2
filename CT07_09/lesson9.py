@@ -19,4 +19,5 @@ userInput = input("What has to be broken before you can use it? ")
 isCorrect = False
 
 lowercase_sentence = userInput.lower()
-print(splitted_sentence)
+print(lowercase_sentence)
+spl
