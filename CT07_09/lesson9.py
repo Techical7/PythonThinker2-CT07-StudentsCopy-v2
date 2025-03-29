@@ -25,4 +25,3 @@ window.setup(width= 600, height= 600)
 window.screen.bgcolor("#43C7A8")
 window.mainloop()
 
-t.seth
