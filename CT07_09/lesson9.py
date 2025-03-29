@@ -9,5 +9,4 @@ else:
 
 
 if isCorrect == True:
-    pritn
-print("Correct! Well done")
+    print("Correct! Well done")
