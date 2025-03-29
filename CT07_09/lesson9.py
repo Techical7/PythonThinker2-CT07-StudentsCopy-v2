@@ -26,7 +26,7 @@ window.screen.bgcolor("#43C7A8")
 
 pen = turtle.turtle
 pen.penup()
-pen.seth
+pen.seth()
 pen.shape("square")
 pen.color("black")
 pen.sety(250)
