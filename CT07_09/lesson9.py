@@ -20,4 +20,4 @@
 
 import turtle
 turtle.Screen()
-turtle.screen.setu[()]
+turtle.screen.setup(width)
