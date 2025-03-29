@@ -52,6 +52,6 @@ pen.seth()
 pen.shape()
 pen.color()
 pen.goto()
-pen.write("Sally", align="centre")
+pen.write("Sally", align="centre", font=(''))
 
 window.mainloop()
