@@ -33,7 +33,8 @@ turtle.sety(250)
 
 
 
-
+for i in range(290,310,25):
+    pen.setx(i)
 
 
 
