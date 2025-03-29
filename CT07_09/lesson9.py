@@ -28,6 +28,7 @@ pen = turtle.turtle
 pen.penup()
 turtle.seth
 turtle.shape("square")
+pen.color("Black")
 turtle.sety(250)
 
 
