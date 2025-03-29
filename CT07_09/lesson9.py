@@ -2,7 +2,7 @@
 isCorrect = False
 
 userInput = input("What has to be broken before you can use it? ")
-if input == "egg":
+if userInput == "egg":
     isCorrect = True
 else:
     isCorrect = False
