@@ -7,4 +7,4 @@ isCorrect = False
 for i in range("egg"):
     isCorrect = True
 else:
-    i
+    isCorrect = False
