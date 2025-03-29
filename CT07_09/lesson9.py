@@ -20,6 +20,6 @@
 
 import turtle
 
-turtle.Screen()
+window = turtle.Screen()
 turtle.setup(width= 600, height= 600)
 turtle.screen.bgcolor()
