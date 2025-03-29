@@ -5,8 +5,6 @@ input("What has to be broken before you can use it? ")
 if input == "egg":
     isCorrect = True
 
-isCorrect = False
-
 for i in range():
     isCorrect = True
 else:
