@@ -20,5 +20,4 @@
 
 import turtle
 turtle.Screen()
-turtle.setup(width= 24, height= 26)
-turtle.bgcolor("forestgreen")
+turtle.setup(width= 600, height= 600)
