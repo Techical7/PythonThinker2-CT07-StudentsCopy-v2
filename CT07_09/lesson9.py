@@ -7,4 +7,7 @@ if input == "egg":
 else:
     isCorrect = False
 
-print("Correct")
+
+if isCorrect == True:
+    pritn
+print("Correct! Well done")
