@@ -26,4 +26,5 @@ for word in splitted_sentence:
     if word == "egg":
         isCorrect = True
 
-        
+if isCorrect:
+    print("Correct")
