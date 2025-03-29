@@ -26,8 +26,7 @@ window.screen.bgcolor("#43C7A8")
 
 turtle.seth
 turtle.stamp
-turtle.shape("Square")
-
+turtle.shape("square")
 
 
 
