@@ -26,10 +26,10 @@ window.screen.bgcolor("#43C7A8")
 
 pen = turtle.turtle
 pen.penup()
-turtle.seth
-turtle.shape("square")
+pen.seth
+pen.shape("square")
 pen.color("Black")
-turtle.sety(250)
+pen.sety(250)
 
 
 
