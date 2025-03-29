@@ -30,7 +30,7 @@ pen.seth
 pen.shape("square")
 pen.color("Black")
 pen.sety(250)
-pen.goto()
+pen.goto(-300,-250)
 
 
 for i in range(-290,310,25):
