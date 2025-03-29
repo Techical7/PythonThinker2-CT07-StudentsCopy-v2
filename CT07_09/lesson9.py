@@ -29,4 +29,4 @@ for word in splitted_sentence:
 if isCorrect:
     print("Correct! Well Done.")
 else:
-    print("Thats is not correct")
+    print("That is not correct")
