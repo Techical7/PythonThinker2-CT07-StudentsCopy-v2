@@ -20,4 +20,4 @@
 
 import turtle
 turtle.Screen()
-turtle.s
+turtle.screen.setu[()]
