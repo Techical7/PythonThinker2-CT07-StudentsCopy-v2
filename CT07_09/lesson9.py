@@ -44,7 +44,7 @@ pen.pendown()
 pen.seth(0)
 pen.forward(600)
 pen.color("yellow")
-pen.sety(250)
+pen.hideturtle()
 
 
 
