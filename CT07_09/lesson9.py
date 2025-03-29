@@ -24,4 +24,6 @@ splitted_sentence = lowercase_sentence.split()
 print(splitted_sentence)
 for word in splitted_sentence:
     if word == "egg":
+        isCorrect = True
+
         
