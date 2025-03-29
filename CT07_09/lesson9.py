@@ -38,5 +38,9 @@ for i in range(-290,310,25):
     pen.stamp()
 
 pen.goto(-300,-250)
+pen.color("Black")
+
+
+
 
 window.mainloop()
