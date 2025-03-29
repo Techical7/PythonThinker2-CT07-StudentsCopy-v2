@@ -21,3 +21,4 @@ isCorrect = False
 lowercase_sentence = userInput.lower()
 print(lowercase_sentence)
 splitted_sentence = lowercase_sentence.split()
+print(splitted_sentence)
