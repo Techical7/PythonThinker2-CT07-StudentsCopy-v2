@@ -19,6 +19,7 @@
 #     print("That is not correct! Try again")
 
 import turtle
+
 turtle.Screen()
 turtle.setup(width= 600, height= 600)
 turtle.screen.bgcolor()
