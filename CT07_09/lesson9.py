@@ -21,7 +21,7 @@
 import turtle
 
 window = turtle.Screen()
-window.setup(600 600)
+window.setup(600,600)
 window.screen.bgcolor("#43C7A8")
 
 pen = turtle.turtle
