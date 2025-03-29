@@ -6,3 +6,5 @@ if input == "egg":
     isCorrect = True
 else:
     isCorrect = False
+
+print(isCorrect)
