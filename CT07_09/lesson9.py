@@ -19,3 +19,4 @@
 #     print("That is not correct! Try again")
 
 import turtle
+turtle.Screen()
