@@ -67,7 +67,7 @@ Keith.penup()
 Keith.seth(90)
 Keith.shape("turtle")
 Keith.color("white")
-Keith.goto(0,250)
+Keith.goto(200,-250)
 Keith.write("Keith", align="centre", font=('Arial',20))
 
 window.mainloop()
