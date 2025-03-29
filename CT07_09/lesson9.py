@@ -40,9 +40,9 @@ for i in range(-290,310,25):
 pen.goto(-300,-250)
 pen.pencolor("Black")
 pen = turtle.turtle
-pen.penup()
+pen.pendown()
 pen.seth(0)
-pen.shape("square")
+pen.forward(600)
 pen.color("yellow")
 pen.sety(250)
 
