@@ -28,7 +28,7 @@ pen = turtle.turtle
 pen.penup()
 pen.seth
 pen.shape("square")
-pen.color("Black")
+pen.color("black")
 pen.sety(250)
 
 
@@ -41,9 +41,9 @@ pen.goto(-300,-250)
 pen.pencolor("Black")
 pen = turtle.turtle
 pen.penup()
-pen.seth
+pen.seth(0)
 pen.shape("square")
-pen.color(""yellow")
+pen.color("yellow")
 pen.sety(250)
 
 
