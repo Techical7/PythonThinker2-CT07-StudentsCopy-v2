@@ -70,7 +70,7 @@ Keith.color("white")
 Keith.goto(200,-250)
 Keith.write("Keith", align="centre", font=('Arial',20))
 
-guess_winner = input("Guess the winner!")
+guess = input("Guess the winner!")
 
 Sally.pendown()
 Bob.pendown()
