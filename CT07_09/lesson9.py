@@ -89,6 +89,6 @@ while True:
         break
     elif Sally.ycor() > y_limit:
         winner = "Keith"
-
+        break
 
 window.mainloop()
