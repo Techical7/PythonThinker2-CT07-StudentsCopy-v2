@@ -19,7 +19,7 @@
 #     print("That is not correct! Try again")
 
 import random
-import turtle
+import Turtle
 
 
 y_limit = 250
