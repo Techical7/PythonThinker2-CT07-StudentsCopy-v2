@@ -95,7 +95,7 @@ while True:
         winner = "Keith"
         break
 
-if guest_winner == winner:
+if guess == winner:
     print("Your guess was ")
 else:
     print("The winner was " + winner + "! Better luck next time")
