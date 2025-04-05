@@ -23,7 +23,7 @@ import turtle
 
 
 y_limit = 250
-window = Turtle.Screen()
+window = turtle.Screen()
 window.setup(600,600)
 window.bgcolor("#43C7A8")
 
