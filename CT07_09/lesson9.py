@@ -76,5 +76,5 @@ Bob.pendown()
 Keith.pendown()
 
 while True:
-    
+    Sally.seth
 window.mainloop()
