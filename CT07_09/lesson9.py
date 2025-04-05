@@ -98,6 +98,6 @@ while True:
 if guest_winner == winner:
     print("Your guess was ")
 else:
-    print("The winner was " + winner + "")
+    print("The winner was " + winner + "! Better luck next time")
 
 window.mainloop()
