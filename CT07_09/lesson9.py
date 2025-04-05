@@ -95,6 +95,7 @@ while True:
         winner = "Keith"
         break
 
-
+if guest_winner == winner:
+    print()
 
 window.mainloop()
