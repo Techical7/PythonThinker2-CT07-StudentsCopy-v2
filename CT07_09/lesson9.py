@@ -72,7 +72,7 @@ Keith.write("Keith", align="centre", font=('Arial',20))
 guess = input("Guess the winner!")
 
 import random
-random.randint(75)
+random.randint(75,115)
 
 
 
