@@ -72,7 +72,7 @@ Keith.seth(90)
 Keith.shape("turtle")
 Keith.color("white")
 Keith.goto(200,-250)
-Keith.write("Keith", align="centre", font=('Arial',20))
+Keith.write("Keith", align="center", font=('Arial',20))
 
 guess = input("Guess the winner!")
 
