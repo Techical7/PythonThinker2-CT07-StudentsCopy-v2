@@ -64,7 +64,7 @@ Bob.seth(90)
 Bob.shape("turtle")
 Bob.color("blue")
 Bob.goto(-200,-250)
-Bob.write("Bob", align="centre", font=('Arial',20))
+Bob.write("Bob", align="center", font=('Arial',20))
 
 Keith = turtle.Turtle()
 Keith.penup()
