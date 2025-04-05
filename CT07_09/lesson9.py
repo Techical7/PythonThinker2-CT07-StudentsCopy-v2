@@ -56,7 +56,7 @@ Sally.seth(90)
 Sally.shape("turtle")
 Sally.color("red")
 Sally.goto(0,-250)
-Sally.write("Sally", align="centre", font=('Arial',20))
+Sally.write("Sally", align="center", font=('Arial',20))
 
 Bob = turtle.Turtle()
 Bob.penup()
