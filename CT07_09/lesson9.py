@@ -27,7 +27,7 @@ window = turtle.Screen()
 window.setup(600,600)
 window.bgcolor("#43C7A8")
 
-pen = turtle.Turtle()
+pen = urtle.Turtle()
 pen.penup()
 pen.shape("square")
 pen.color("black")
@@ -41,7 +41,7 @@ for i in range(-290,310,25):
 
 pen.goto(-300,-250)
 pen.pencolor("Black")
-pen = turtle.Turtle
+pen = turtle.turtle
 pen.pendown()
 pen.seth(0)
 pen.forward(600)
