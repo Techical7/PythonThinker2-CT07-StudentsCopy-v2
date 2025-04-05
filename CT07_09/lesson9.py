@@ -19,11 +19,11 @@
 #     print("That is not correct! Try again")
 
 import random
-import Turtle
+import turtle
 
 
 y_limit = 250
-window = turtle.Screen()
+window = Turtle.Screen()
 window.setup(600,600)
 window.bgcolor("#43C7A8")
 
