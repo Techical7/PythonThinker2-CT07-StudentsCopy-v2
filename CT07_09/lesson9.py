@@ -71,9 +71,6 @@ Keith.write("Keith", align="centre", font=('Arial',20))
 
 guess = input("Guess the winner!")
 
-import random
-random.randint(75,115)
-random.seth(75,115)
-
+sally.pen
 
 window.mainloop()
