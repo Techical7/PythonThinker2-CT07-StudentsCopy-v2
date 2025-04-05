@@ -19,6 +19,7 @@
 #     print("That is not correct! Try again")
 
 import random
+import y
 import turtle
 
 window = turtle.Screen()
