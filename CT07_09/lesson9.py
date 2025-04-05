@@ -73,7 +73,7 @@ guess = input("Guess the winner!")
 
 import random
 random.randint(75,115)
-random.set
+random.seth 
 
 
 window.mainloop()
