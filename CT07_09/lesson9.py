@@ -27,7 +27,7 @@ window = turtle.Screen()
 window.setup(600,600)
 window.bgcolor("#43C7A8")
 
-pen = urtle.Turtle()
+pen = turtle.Turtle()
 pen.penup()
 pen.shape("square")
 pen.color("black")
