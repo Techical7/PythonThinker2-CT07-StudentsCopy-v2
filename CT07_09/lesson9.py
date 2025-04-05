@@ -76,5 +76,5 @@ Bob.pendown()
 Keith.pendown()
 
 while True:
-    Sally.seth
+    Sally.seth(random.randint(7))
 window.mainloop()
