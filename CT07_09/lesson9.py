@@ -18,6 +18,7 @@
 # else:
 #     print("That is not correct! Try again")
 
+import random
 import turtle
 
 window = turtle.Screen()
@@ -79,5 +80,5 @@ while True:
     Sally.seth(random.randint(75,115))
     Bob.seth(random.randint(75,115))
     Keith.seth(random.randint(75,115))
-    
+
 window.mainloop()
