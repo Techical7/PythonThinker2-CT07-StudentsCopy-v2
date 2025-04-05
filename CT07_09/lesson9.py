@@ -81,4 +81,7 @@ while True:
     Bob.seth(random.randint(75,115))
     Keith.seth(random.randint(75,115))
 
+    if Sally.ycor() > y_limit:
+        winner = "Sally"
+
 window.mainloop()
