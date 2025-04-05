@@ -84,9 +84,9 @@ while True:
     if Sally.ycor() > y_limit:
         winner = "Sally"
     elif Sally.ycor() > y_limit:
-        winner = "Sally"
+        winner = "Bob"
     elif Sally.ycor() > y_limit:
-        winner = "Sally"
+        winner = "Keith"
 
 
 window.mainloop()
