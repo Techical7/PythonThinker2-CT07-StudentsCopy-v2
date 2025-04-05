@@ -74,4 +74,7 @@ guess = input("Guess the winner!")
 Sally.pendown()
 Bob.pendown()
 Keith.pendown()
+
+while True:
+    
 window.mainloop()
