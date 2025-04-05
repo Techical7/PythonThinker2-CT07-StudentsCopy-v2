@@ -82,8 +82,8 @@ while True:
     Keith.seth(random.randint(75,115))
 
     Sally.seth(random.randint(1,20))
-    Bob.seth(random.randint(75,115))
-    Keith.seth(random.randint(75,115))
+    Bob.seth(random.randint(1,20))
+    Keith.seth(random.randint(1,20))
 
     if Sally.ycor() > y_limit:
         winner = "Sally"
