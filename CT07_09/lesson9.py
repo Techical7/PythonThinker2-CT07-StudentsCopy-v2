@@ -83,7 +83,9 @@ while True:
 
     if Sally.ycor() > y_limit:
         winner = "Sally"
-        if Sally.ycor() > y_limit:
+    if Sally.ycor() > y_limit:
+        winner = "Sally"
+    if Sally.ycor() > y_limit:
         winner = "Sally"
 
 
