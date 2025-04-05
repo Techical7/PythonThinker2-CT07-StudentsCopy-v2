@@ -22,7 +22,7 @@ import random
 import turtle
 
 
- y_limit = 250
+y_limit = 250
 window = turtle.Screen()
 window.setup(600,600)
 window.screen.bgcolor("#43C7A8")
