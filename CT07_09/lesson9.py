@@ -92,7 +92,7 @@ while True:
     if Sally.ycor() > y_limit:
         winner = "Sally"
         break
-    elif Sally.ycor() > y_limit:
+    elif Bob.ycor() > y_limit:
         winner = "Bob"
         break
     elif Sally.ycor() > y_limit:
