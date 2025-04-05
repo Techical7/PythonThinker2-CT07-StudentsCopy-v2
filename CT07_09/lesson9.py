@@ -100,7 +100,7 @@ while True:
         break
 
 if guess == winner:
-    print("Your guess was ")
+    print("Your guess was correct")
 else:
     print("The winner was " + winner + "! Better luck next time")
 
