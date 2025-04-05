@@ -72,5 +72,6 @@ Keith.write("Keith", align="centre", font=('Arial',20))
 guess = input("Guess the winner!")
 
 sally.pendown()
-
+Bob.pendown()
+Keith
 window.mainloop()
