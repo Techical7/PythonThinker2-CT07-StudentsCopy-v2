@@ -9,9 +9,3 @@ def f():
 
 f()
 print("var1 = " + str(var1))
-
-
-
-
-
-
