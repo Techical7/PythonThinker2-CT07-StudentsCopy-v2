@@ -11,4 +11,4 @@
 # print("var1 = " + str(var1))
 
 initialise_board()
-
+board()
