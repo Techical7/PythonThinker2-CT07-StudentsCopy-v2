@@ -10,17 +10,3 @@
 # f()
 # print("var1 = " + str(var1))
 
-def initialiseBoard():
-     grid=[]
-     row=[]
-     for i in range(3):
-          row()
-          for i in range(3):
-               row.append(" ")
-          
-          return grid
-     
-board = initialiseBoard()
-board[0][1] = "x"
-
-print(board)
