@@ -33,29 +33,4 @@
 
 
 
-
-
-Board = []
-
-def printboard():
-     grid=[]
-     row=[]
-     for i in range(3):
-          row()
-          for i in range(3):
-               row.append(" ")
-
-          
-          return grid
-     
-board = ()
-board[0][1] = "x"
-
-print(board)
-
-
-
-
-
-
-
+print()
