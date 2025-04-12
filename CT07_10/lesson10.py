@@ -1,16 +1,16 @@
-print("Hello from lesson 10")
+# print("Hello from lesson 10")
 
-# import turtle
+# # import turtle
 
-# window = turtle.Screen()
-# window.setup(600, 400)
+# # window = turtle.Screen()
+# # window.setup(600, 400)
 
 
-# pen = turtle.Turtle()
-# turtle.shape("turtle")
-# turtle.fillcolor("orange")
-# turtle.seth(0)
-# turtle.pendown()
+# # pen = turtle.Turtle()
+# # turtle.shape("turtle")
+# # turtle.fillcolor("orange")
+# # turtle.seth(0)
+# # turtle.pendown()
 # while True:
 #     for i in range(4):
 #         turtle.forward(100)
