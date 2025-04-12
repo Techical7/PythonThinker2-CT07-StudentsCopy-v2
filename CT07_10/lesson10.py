@@ -23,9 +23,9 @@
 
     # window.mainloop()
 
-# # var1 = 200 # global
+# var1 = 200 # global
 
-# # def f():
+# def f():
 #     #var1 = 500 #local variable
 #     #global var2
 #     var2 = 500
