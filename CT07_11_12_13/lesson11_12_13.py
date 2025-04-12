@@ -42,3 +42,10 @@ board = ()
 board[0][1] = "x"
 
 print(board)
+
+
+
+
+
+
+
