@@ -33,7 +33,7 @@
 # ( | )
 
 Board = []
-Layout = []
+Board_Layout:[]
 
 def initialiseBoard():
 
