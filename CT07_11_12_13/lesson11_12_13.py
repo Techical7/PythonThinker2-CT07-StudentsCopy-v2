@@ -11,4 +11,5 @@
 # print("var1 = " + str(var1))
 
 def initialiseboard():
-    grid()
+    grid=[]
+    
