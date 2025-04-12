@@ -11,6 +11,7 @@
 # print("var1 = " + str(var1))
 
 def initialiseboard():
-    grid=[]
-    row=[]
-    
+     grid=[]
+     row=[]
+     for i in range(3):
+          row.append(row)
