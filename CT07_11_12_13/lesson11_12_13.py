@@ -53,9 +53,6 @@ board[0][1] = "x"
 print(board)
 print(" | 1"  " | 2")
 
-
-
-
 #Board Layout:
 #cell_number
 #\n
