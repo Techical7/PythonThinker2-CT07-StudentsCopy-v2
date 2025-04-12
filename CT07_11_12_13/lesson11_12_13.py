@@ -13,7 +13,7 @@
 ######################################
 # Board = []
 
-# def printboard():
+# def in():
 #      grid=[]
 #      row=[]
 #      for i in range(3):
