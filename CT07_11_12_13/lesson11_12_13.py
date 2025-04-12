@@ -51,3 +51,10 @@ board[0][1] = "x"
 
 print(board)
 print(" | 1"  " | 2")
+
+
+
+
+
+cell_number
+#\n
