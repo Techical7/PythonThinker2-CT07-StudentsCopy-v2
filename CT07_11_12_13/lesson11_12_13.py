@@ -10,6 +10,7 @@
 # f()
 # print("var1 = " + str(var1))
 
+# Task 1a 
 ##################################
 # def initialiseBoard():
 #      grid=[]
