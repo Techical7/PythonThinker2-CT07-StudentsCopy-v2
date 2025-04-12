@@ -15,6 +15,24 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Board = []
 
 def printboard():
