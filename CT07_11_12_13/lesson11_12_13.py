@@ -28,7 +28,7 @@ def Board():
           
           return grid
      
-board = initialiseBoard()
+board = ()
 board[0][1] = "x"
 
 print(board)
