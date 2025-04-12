@@ -12,8 +12,6 @@
 
 board = []
 
-initialise_board()
-
 board[[' ', ' ', ' '],
       [' ', ' ', ' '],
       [' ', ' ', ' ']]
