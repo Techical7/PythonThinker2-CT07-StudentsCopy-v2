@@ -10,33 +10,7 @@
 # f()
 # print("var1 = " + str(var1))
 
-######################################
-# Board = []
-
-# def initalise():
-#      grid=[]
-#      row=[]
-#      for i in range(3):
-#           row()
-#           for i in range(3):
-#                row.append(" ")
-
-          
-#           return grid
-     
-# board = ()
-# board[0][1] = "x"
-
-# print(board)
-
-######################################
-
-
-# ( | )
-
-Board = []
-
-def Print_board():
+def initialiseBoard():
      grid=[]
      row=[]
      for i in range(3):
@@ -47,8 +21,7 @@ def Print_board():
           
           return grid
      
-board = ()
+board = initialiseBoard()
 board[0][1] = "x"
 
 print(board)
-print(" | 1"  " | 2")
