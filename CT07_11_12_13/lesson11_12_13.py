@@ -15,9 +15,9 @@
 
 
 
+BOard\
 
-
-def initialiseBoard():
+def Board():
      grid=[]
      row=[]
      for i in range(3):
