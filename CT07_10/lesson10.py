@@ -23,16 +23,16 @@
 
     # window.mainloop()
 
-var1 = 200 # global
+# var1 = 200 # global
 
-def f():
-    #var1 = 500 #local variable
-    #global var2
-    var2 = 500
-    print(str(var2))
-def f2():
-    print(str(var1))
+# def f():
+#     #var1 = 500 #local variable
+#     #global var2
+#     var2 = 500
+#     print(str(var2))
+# def f2():
+#     print(str(var1))
 
 
-f()
-print(str(var2))
+# f()
+# print(str(var2))
