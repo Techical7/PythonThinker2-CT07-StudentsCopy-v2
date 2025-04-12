@@ -34,6 +34,7 @@
 
 Board = []
 
+def initialiseBoard():
 def Print_board():
      grid=[]
      row=[]
