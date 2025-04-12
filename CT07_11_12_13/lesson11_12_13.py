@@ -10,7 +10,7 @@
 # f()
 # print("var1 = " + str(var1))
 
-board
+board = []
 
 initialise_board()
 
