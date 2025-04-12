@@ -15,4 +15,5 @@ def initialiseboard():
      row=[]
      for i in range(3):
           row()
-          
+          for i in range(3):
+               row.append
