@@ -12,4 +12,5 @@
 
 def initialiseboard():
     grid=[]
+    row=[]
     
