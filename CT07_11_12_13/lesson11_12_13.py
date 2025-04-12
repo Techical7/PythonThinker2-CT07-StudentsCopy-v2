@@ -13,7 +13,7 @@
 ######################################
 # Board = []
 
-# def in():
+# def initalise():
 #      grid=[]
 #      row=[]
 #      for i in range(3):
