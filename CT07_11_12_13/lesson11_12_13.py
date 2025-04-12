@@ -33,22 +33,22 @@
 
 
 # ( | )
-print(" | 1"  " | 2")
 
-# Board = []
+Board = []
 
-# def printboard():
-#      grid=[]
-#      row=[]
-#      for i in range(3):
-#           row()
-#           for i in range(3):
-#                row.append(" ")
+def printboard():
+     grid=[]
+     row=[]
+     for i in range(3):
+          row()
+          for i in range(3):
+               row.append(" ")
 
           
-#           return grid
+          return grid
      
-# board = ()
-# board[0][1] = "x"
+board = ()
+board[0][1] = "x"
 
-# print(board)
+print(board)
+print(" | 1"  " | 2")
