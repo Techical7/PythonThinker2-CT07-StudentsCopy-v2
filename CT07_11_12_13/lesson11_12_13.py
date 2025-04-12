@@ -15,7 +15,7 @@
 
 
 
-BOard\
+Board = []
 
 def Board():
      grid=[]
