@@ -18,90 +18,90 @@
 # else:
 #     print("That is not correct! Try again")
 
-import random
-import turtle
+# import random
+# import turtle
 
 
-y_limit = 250
-window = turtle.Screen()
-window.setup(600,600)
-window.bgcolor("#43C7A8")
+# y_limit = 250
+# window = turtle.Screen()
+# window.setup(600,600)
+# window.bgcolor("#43C7A8")
 
-pen = turtle.Turtle()
-pen.penup()
-pen.shape("square")
-pen.color("black")
-pen.sety(250)
-
-
-
-for i in range(-290,310,25):
-    pen.setx(i)
-    pen.stamp()
-
-pen.goto(-300,-250)
-pen.pencolor("Yellow")
-# pen =turtle.Turtle()
+# pen = turtle.Turtle()
+# pen.penup()
+# pen.shape("square")
+# pen.color("black")
+# pen.sety(250)
 
 
-pen.pendown()
-pen.seth(0)
-pen.forward(600)
 
-pen.hideturtle()
+# for i in range(-290,310,25):
+#     pen.setx(i)
+#     pen.stamp()
 
-Sally = turtle.Turtle()
-Sally.penup()
-Sally.seth(90)
-Sally.shape("turtle")
-Sally.color("red")
-Sally.goto(0,-250)
-Sally.write("Sally", align="center", font=('Arial',20))
+# pen.goto(-300,-250)
+# pen.pencolor("Yellow")
+# # pen =turtle.Turtle()
 
-Bob = turtle.Turtle()
-Bob.penup()
-Bob.seth(90)
-Bob.shape("turtle")
-Bob.color("blue")
-Bob.goto(-200,-250)
-Bob.write("Bob", align="center", font=('Arial',20))
 
-Keith = turtle.Turtle()
-Keith.penup()
-Keith.seth(90)
-Keith.shape("turtle")
-Keith.color("white")
-Keith.goto(200,-250)
-Keith.write("Keith", align="center", font=('Arial',20))
+# pen.pendown()
+# pen.seth(0)
+# pen.forward(600)
 
-guess = input("Guess the winner!")
+# pen.hideturtle()
 
-Sally.pendown()
-Bob.pendown()
-Keith.pendown()
+# Sally = turtle.Turtle()
+# Sally.penup()
+# Sally.seth(90)
+# Sally.shape("turtle")
+# Sally.color("red")
+# Sally.goto(0,-250)
+# Sally.write("Sally", align="center", font=('Arial',20))
 
-while True:
-    Sally.seth(random.randint(75,115))
-    Bob.seth(random.randint(75,115))
-    Keith.seth(random.randint(75,115))
+# Bob = turtle.Turtle()
+# Bob.penup()
+# Bob.seth(90)
+# Bob.shape("turtle")
+# Bob.color("blue")
+# Bob.goto(-200,-250)
+# Bob.write("Bob", align="center", font=('Arial',20))
 
-    Sally.forward(random.randint(1,20))
-    Bob.forward(random.randint(1,20))
-    Keith.forward(random.randint(1,20))
+# Keith = turtle.Turtle()
+# Keith.penup()
+# Keith.seth(90)
+# Keith.shape("turtle")
+# Keith.color("white")
+# Keith.goto(200,-250)
+# Keith.write("Keith", align="center", font=('Arial',20))
 
-    if Sally.ycor() > y_limit:
-        winner = "Sally"
-        break
-    elif Bob.ycor() > y_limit:
-        winner = "Bob"
-        break
-    elif Keith.ycor() > y_limit:
-        winner = "Keith"
-        break
+# guess = input("Guess the winner!")
 
-if guess == winner:
-    print("Your guess was correct")
-else:
-    print("The winner was " + winner + "! Better luck next time")
+# Sally.pendown()
+# Bob.pendown()
+# Keith.pendown()
 
-window.mainloop()
+# while True:
+#     Sally.seth(random.randint(75,115))
+#     Bob.seth(random.randint(75,115))
+#     Keith.seth(random.randint(75,115))
+
+#     Sally.forward(random.randint(1,20))
+#     Bob.forward(random.randint(1,20))
+#     Keith.forward(random.randint(1,20))
+
+#     if Sally.ycor() > y_limit:
+#         winner = "Sally"
+#         break
+#     elif Bob.ycor() > y_limit:
+#         winner = "Bob"
+#         break
+#     elif Keith.ycor() > y_limit:
+#         winner = "Keith"
+#         break
+
+# if guess == winner:
+#     print("Your guess was correct")
+# else:
+#     print("The winner was " + winner + "! Better luck next time")
+
+# window.mainloop()
