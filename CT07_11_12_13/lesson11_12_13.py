@@ -3,6 +3,7 @@
 var1 = 500
 def f():
     global var1
+    var1 = 200
     var2 = 300
     print("var1 = " + str(var1))
 
