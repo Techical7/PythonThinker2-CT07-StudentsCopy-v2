@@ -55,6 +55,6 @@ print(" | 1"  " | 2")
 
 
 
-
+#Board Layout:
 #cell_number
 #\n
