@@ -23,7 +23,7 @@
 
 
 
-board
+board = []
 
 
 
