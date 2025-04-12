@@ -14,4 +14,7 @@ board = []
 
 initialise_board()
 
-board[[' ', ' ', ' ']]
+board[[' ', ' ', ' ']
+      
+                    
+]
