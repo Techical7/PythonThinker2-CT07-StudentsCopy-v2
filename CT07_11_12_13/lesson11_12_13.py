@@ -56,5 +56,5 @@ print(" | 1"  " | 2")
 
 
 
-cell_number
+#cell_number
 #\n
