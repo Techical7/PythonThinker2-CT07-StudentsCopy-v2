@@ -36,7 +36,7 @@
 
 Board = []
 
-def printboard():
+def print_board():
      grid=[]
      row=[]
      for i in range(3):
