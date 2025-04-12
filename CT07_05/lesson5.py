@@ -1,4 +1,4 @@
-print("Hello from lesson 5")
+# print("Hello from lesson 5")
 
 # Task 1
 # import random
@@ -44,23 +44,23 @@ print("Hello from lesson 5")
 # print(namelist[index_of_shortest])
 
 # Task 5
-import random
-pokemons = [
-    "Pikachu", "Charizard", "Bulbasaur", "Squirtle",
-    "Jigglypuff", "Meowth", "Psyduck", "Eevee", "Snorlax",
-    "Mewtwo", "Lapras", "Gengar", "Dragonite", "Machamp",
-    "Arcanine", "Alakazam", "Gyarados", "Vaporeon", "Scyther",
-    "Electabuzz"
-]
+# import random
+# pokemons = [
+#     "Pikachu", "Charizard", "Bulbasaur", "Squirtle",
+#     "Jigglypuff", "Meowth", "Psyduck", "Eevee", "Snorlax",
+#     "Mewtwo", "Lapras", "Gengar", "Dragonite", "Machamp",
+#     "Arcanine", "Alakazam", "Gyarados", "Vaporeon", "Scyther",
+#     "Electabuzz"
+# ]
 
-powers = [
-    55, 84, 49, 48, 45,
-    45, 52, 55, 110, 110,
-    85, 65, 134, 130, 110,
-    50, 125, 65, 110, 83
-]
+# powers = [
+#     55, 84, 49, 48, 45,
+#     45, 52, 55, 110, 110,
+#     85, 65, 134, 130, 110,
+#     50, 125, 65, 110, 83
+# ]
 
-first_pokemon=random.choice(pokemons)
-first_pokemon_index = pokemons.index(first_pokemon)
-print(powers[first_pokemon_index])
+# first_pokemon=random.choice(pokemons)
+# first_pokemon_index = pokemons.index(first_pokemon)
+# print(powers[first_pokemon_index])
 
