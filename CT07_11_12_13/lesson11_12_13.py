@@ -30,29 +30,29 @@
 ##################################
 
 
-# ( | )
+# # ( | )
 
-Board = []
-Board_Layout: [] # type: ignore
+# Board = []
+# Board_Layout: [] # type: ignore
 
-def initialiseBoard():
+# def initialiseBoard():
 
-     grid=[]
-     row=[]
-     for i in range(9):
-          row()
-          for i in range(9):
-               row.append(" ")
+#      grid=[]
+#      row=[]
+#      for i in range(9):
+#           row()
+#           for i in range(9):
+#                row.append(" ")
 
           
-          return grid
+#           return grid
      
-board = ()
-board[0][1] = "x"
+# board = ()
+# board[0][1] = "x"
 
-print(board)
-print(" | 1"  " | 2")
+# print(board)
+# print(" | 1"  " | 2")
 
-#Board Layout:
-#cell_number
-#\n
+# #Board Layout:
+# #cell_number
+# #\n
