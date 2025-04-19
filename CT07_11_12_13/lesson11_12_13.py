@@ -88,7 +88,7 @@ def get_player_move(board):
     board[row][col] = "X"
     break
 else:
-    print("Please Key in ")
+    print("Please Key in your choice again")
 
 
 while get_player_move == True
