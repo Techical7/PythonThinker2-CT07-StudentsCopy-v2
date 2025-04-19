@@ -91,4 +91,3 @@ else:
     print("Please Key in your choice again as this spot is taken")
 
 
-while get_player_move == True
