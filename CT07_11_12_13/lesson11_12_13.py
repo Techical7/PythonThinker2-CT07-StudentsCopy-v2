@@ -74,6 +74,6 @@
 
 get_player_move
 
-
+move = int()
 
 
