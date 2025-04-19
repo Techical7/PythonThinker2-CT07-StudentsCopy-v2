@@ -79,4 +79,4 @@ row = move //3
 col - move % 3
 board[row][col] = 'X'
 
-while 
+while move_input
