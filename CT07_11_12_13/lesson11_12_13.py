@@ -79,8 +79,7 @@
         userChoice = input("Player 1 Please key in your choice.")
 if(userChoice.isdigit() == False or int(userChoice)<1 or int(userChoice)>9):
         print("Key in a valid number")
-
-def get_player_move(board):
+    else:
     move_input = input("Enter your move (1-9): ")
     move - int(move_input) - 1
     row = move //3
