@@ -77,6 +77,7 @@
 #     userChoice = ""
 #     while(userChoice.isdigit() == False):
 #         userChoice = input("Player 1 Please key in your choice.")
+# if(userChoice.isdigit() == False or int(userChoice)<1 or int(userChoice)>9):
         
 
 def get_player_move(board):
@@ -92,5 +93,3 @@ else:
 
 
 while get_player_move == True
-
-if(userChoice.isdigit() == False or int(userChoice)<1 or int(userChoice)>9):
