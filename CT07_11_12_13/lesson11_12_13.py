@@ -79,4 +79,5 @@ row = move //3
 col - move % 3
 board[row][col] = 'X'
 
-while get_play == True
+while get_player_move == True
+
