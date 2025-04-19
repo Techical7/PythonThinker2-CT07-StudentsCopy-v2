@@ -93,4 +93,4 @@ else:
 
 while get_player_move == True
 
-if(userChoice.isdigit() == Flase )
+if(userChoice.isdigit() == False or int(userChoice))
