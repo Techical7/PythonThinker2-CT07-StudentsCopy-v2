@@ -84,7 +84,7 @@ def get_player_move(board):
     move - int(move_input) - 1
     row = move //3
     col - move % 3
-
+    if(grid)
     board[row][col] = 'X'
 
 while get_player_move == True
