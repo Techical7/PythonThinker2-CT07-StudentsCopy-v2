@@ -81,3 +81,4 @@ row = move // 3
 col = move % 3
 
 1 = input("")
+if 1 == 
