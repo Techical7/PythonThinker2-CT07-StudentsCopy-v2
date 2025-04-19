@@ -73,4 +73,4 @@
 # 7, 8, 9 --> Row (7-1/3) (8-1/3) (9-1/3) / / /
 
 def get_player_move(board):
-move
+move_input
