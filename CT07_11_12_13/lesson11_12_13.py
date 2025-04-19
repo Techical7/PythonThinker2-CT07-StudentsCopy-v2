@@ -83,3 +83,5 @@ col = move % 3
 1 = input("")
 if 1 == get_player_move
 input("")
+
+def 
