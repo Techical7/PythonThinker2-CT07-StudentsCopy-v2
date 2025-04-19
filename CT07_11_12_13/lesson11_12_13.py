@@ -75,5 +75,5 @@
 get_player_move
 
 move = int(move_input)
-row = move
-
+row = move // 3
+col = move
