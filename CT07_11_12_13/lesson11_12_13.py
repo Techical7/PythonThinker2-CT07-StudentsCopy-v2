@@ -85,7 +85,7 @@ def get_player_move(board):
     row = move //3
     col - move % 3
     if(grid[row][col] == ' '):
-    board[row][col] = 'X'
+    board[row][col] = "X"
 
 while get_player_move == True
 
