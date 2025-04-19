@@ -81,17 +81,3 @@ def get_player_move(board):
 
 while get_player_move == True
 
-
-
-
-
-
-
-
-
-def getPlayerMove(gird):
-
-    userChoice = ""
-    while(userChoice.isdigit() == False):
-        userChoice = input("Player 1 Please key in your choice.")
-        
