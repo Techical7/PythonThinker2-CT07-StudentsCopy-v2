@@ -72,11 +72,11 @@
 # 4, 5, 6 --> Row (4-1/3) (5-1/3) (6-1/3) / / /
 # 7, 8, 9 --> Row (7-1/3) (8-1/3) (9-1/3) / / /
 
-def getPlayerMove(gird):
+# def getPlayerMove(gird):
 
-    userChoice = ""
-    while(userChoice.isdigit() == False):
-        userChoice = input("Player 1 Please key in your choice.")
+#     userChoice = ""
+#     while(userChoice.isdigit() == False):
+#         userChoice = input("Player 1 Please key in your choice.")
         
 
 def get_player_move(board):
