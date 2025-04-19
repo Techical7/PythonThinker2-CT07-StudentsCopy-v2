@@ -76,4 +76,4 @@ get_player_move
 
 move = int(move_input)
 row = move // 3
-col = move
+col = move % 3
