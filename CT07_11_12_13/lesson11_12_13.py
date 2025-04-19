@@ -101,3 +101,4 @@ winning_condition = [
 [board[2][0]], [board[1][1]], [board[0][2]],
 ]
 
+def checkWin(board)
