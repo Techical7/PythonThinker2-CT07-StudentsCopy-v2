@@ -80,10 +80,10 @@ def getPlayerMove(board):
 if(userChoice.isdigit() == False or int(userChoice)<1 or int(userChoice)>9):
         print("Key in a valid number")
     else:
-    move_input = input("Enter your move (1-9): ")
-    move - int(move_input) - 1
-    row = move //3
-    col - move % 3
+        move_input = input("Enter your move (1-9): ")
+        move - int(move_input) - 1
+        row = move //3
+        col - move % 3
     if(grid[row][col] == ' '):
     board[row][col] = "X"
     break
