@@ -69,7 +69,7 @@
 
 # Task ??? (lesson 12)
 
-# board
+# board[1][]
 
 
 
