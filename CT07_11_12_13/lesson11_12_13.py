@@ -95,6 +95,6 @@ def checkWin(board):
      for condition in WinningCondition
         if(condition[0] == condition[1] == condition[2]):
              if (condition!=" "):
-            return True
+                return True
     return False
 
