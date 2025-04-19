@@ -80,4 +80,4 @@ move = int(move_input) - 1
 row = move // 3
 col = move % 3
 
-r
+input("")
