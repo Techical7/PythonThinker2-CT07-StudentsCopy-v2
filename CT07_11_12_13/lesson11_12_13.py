@@ -86,6 +86,9 @@ def get_player_move(board):
     col - move % 3
     if(grid[row][col] == ' '):
     board[row][col] = "X"
+    break
+
+
 
 while get_player_move == True
 
