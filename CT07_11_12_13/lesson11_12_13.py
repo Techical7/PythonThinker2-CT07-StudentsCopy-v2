@@ -73,11 +73,11 @@
 # 7, 8, 9 --> Row (7-1/3) (8-1/3) (9-1/3) / / /
 
 def get_player_move(board):
-move_input = input("Enter your move (1-9): ")
-move - int(move_input) - 1
-row = move //3
-col - move % 3
-board[row][col] = 'X'
+    move_input = input("Enter your move (1-9): ")
+    move - int(move_input) - 1
+    row = move //3
+    col - move % 3
+    board[row][col] = 'X'
 
 while get_player_move == True
 
