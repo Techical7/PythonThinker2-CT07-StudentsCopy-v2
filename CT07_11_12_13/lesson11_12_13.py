@@ -91,4 +91,4 @@ else:
     print("Please Key in your choice again as this spot is taken")
 
 winning_condition
-[]
+[board]
