@@ -92,4 +92,4 @@ while get_player_move == True
 def getPlayerMove(gird):
 
     userChoice = ""
-    while(userChoice.isdigit)
+    while(userChoice.isdigit())
