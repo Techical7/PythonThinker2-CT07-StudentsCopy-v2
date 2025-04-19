@@ -93,4 +93,4 @@ def getPlayerMove(gird):
 
     userChoice = ""
     while(userChoice.isdigit() == False):
-        userChoice = input
+        userChoice = input("Player 1 ")
