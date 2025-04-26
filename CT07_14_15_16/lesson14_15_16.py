@@ -1,11 +1,11 @@
 # print("Hello from lesson 14_15_16")
 
 def is_valid_plate(plate):
-    # First, make sure the plate is in the correct format
+
     import re
     match = re.fullmatch(r'([A-Z]{2,3})(\d{1,4})([A-Z])', plate)
     if not match:
-        return False  # Doesn't match expected structure
+        return False
 
     letters_part, number_part, final_letter = match.groups()
 
