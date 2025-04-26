@@ -180,3 +180,5 @@ while True:
     if check_winner(board) == 'O'
         print_board(board)
         print('AI wins!')
+        break
+    
