@@ -172,4 +172,5 @@ while True:
         print("Congratulations, you win!")
         break
     if board_full(board):
-        print
+        print_board(board)
+        print()
