@@ -170,3 +170,5 @@ while True:
     if check_winner(board) == 'X'
         print_board(board)
         print("Congratulations, you win!")
+        break
+    if board
