@@ -181,4 +181,3 @@ while True:
         print_board(board)
         print('AI wins!')
         break
-    
