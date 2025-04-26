@@ -52,6 +52,6 @@ plate = input("Please enter your car registration plate: ").strip().upper()
 
 #Tell them clearly whether it's valid or not
 if is_valid_plate(plate):
-    print("Output: Valid 🎉")
+    print("Output: Valid")
 else:
-    print("Output: Invalid ❌")
+    print("Output: Invalid")
