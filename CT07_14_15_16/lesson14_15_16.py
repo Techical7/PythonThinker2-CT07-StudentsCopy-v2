@@ -26,23 +26,18 @@ def is_valid_plate(plate):
     # Multiply each value by its corresponding weight and add them up
     total = sum(value * weight for value, weight in zip(values_to_multiply, weights))
 
-    # Get the remainder when the total is divided by 19
     remainder = total % 19
 
-    # Use the remainder to find the expected checksum letter
     checksum_lookup = [
         'A', 'Z', 'Y', 'X', 'U', 'T', 'S', 'R', 'P', 'M',
         'L', 'K', 'J', 'H', 'G', 'E', 'D', 'C', 'B'
     ]
     expected_letter = checksum_lookup[remainder]
 
-    # Check if it matches the final letter in the plate
     return expected_letter == final_letter
 
-# Ask the user for a registration plate to check
 plate = input("Registration Plate: ").strip().upper()
 
-# Check if it's valid and print the result
 if is_valid_plate(plate):
     print("Output: Valid")
 else:
