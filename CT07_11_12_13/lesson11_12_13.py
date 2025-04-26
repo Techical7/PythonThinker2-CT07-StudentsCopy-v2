@@ -167,4 +167,5 @@ while True:
 while True:
     print_board(board)
     get_player_move(board)
-    if check_winner(board) == 'x'
+    if check_winner(board) == 'X'
+       
