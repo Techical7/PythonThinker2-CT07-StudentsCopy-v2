@@ -166,4 +166,5 @@ while True:
 
 while True:
     print_board(board)
-    get
+    get_player_move(board)
+    i
