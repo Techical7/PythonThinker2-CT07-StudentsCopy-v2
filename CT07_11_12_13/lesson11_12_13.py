@@ -178,4 +178,5 @@ while True:
 
     get_ai_move(board, ai_level)
     if check_winner(board) == 'O'
-    print_board
+    print_board(board)
+    
