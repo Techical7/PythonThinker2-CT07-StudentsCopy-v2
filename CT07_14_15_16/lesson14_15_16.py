@@ -44,8 +44,7 @@ def is_valid_plate(plate):
     # Find the expected letter
     expected_letter = checksum_table[remainder]
 
-    # Now just check if what we expect matches the last letter
-    return expected_letter == last_letter
+    # Cted_letter == last_letter
 
 # Let's ask the user nicely
 plate = input("Please enter your car registration plate: ").strip().upper()
