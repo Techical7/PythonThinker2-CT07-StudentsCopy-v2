@@ -173,4 +173,6 @@ while True:
         break
     if board_full(board):
         print_board(board)
-        print()
+        print("It's a draw!")
+        break
+    
