@@ -100,7 +100,7 @@ def checkWin(board):
 
     board=initialiseBoard()
     while True:
-    
+        print
 
 
 
