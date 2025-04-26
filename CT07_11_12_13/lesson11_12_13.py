@@ -122,7 +122,7 @@ def checkWin(board):
             return True
     return False
 
-# Game loop
+
 board = initialiseBoard()
 while True:
     printBoard(board)
