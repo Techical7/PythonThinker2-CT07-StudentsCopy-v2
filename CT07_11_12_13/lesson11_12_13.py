@@ -103,3 +103,4 @@
         printBoard(board)
         if checkWin(board)
             print("win")
+            printBoard
