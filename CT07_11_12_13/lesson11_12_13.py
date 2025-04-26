@@ -101,4 +101,4 @@
     board=initialiseBoard()
     while True:
         printBoard(board)
-        
+        if checkWin
