@@ -98,8 +98,8 @@ def checkWin(board):
                 return True
     return False
 
-board=initialiseBoard()
-
+    board=initialiseBoard()
+    
 
 
 
