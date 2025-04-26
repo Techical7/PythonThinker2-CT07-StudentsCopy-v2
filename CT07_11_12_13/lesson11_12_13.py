@@ -176,4 +176,4 @@ while True:
         print("It's a draw!")
         break
 
-    
+    get_ai_move
