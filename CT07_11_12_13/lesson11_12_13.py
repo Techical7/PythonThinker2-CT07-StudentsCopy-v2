@@ -106,7 +106,7 @@ def get_player_move(board):
 def get_empty_cells(board):
     return [(r, c) for r in range(3) for c in range(3) if board[r][c] == ' ']
 
-def check_winner(board):
+def checkWin(board):
     win_lines = [
         [board[0][0], board[0][1], board[0][2]],
         [board[1][0], board[1][1], board[1][2]],
@@ -129,26 +129,23 @@ def get_ai_move(board, level):
     print(f"AI (Level {level}) is thinking...")
 
     if level == 1:
-        # Easy: random move
         move = random.choice(get_empty_cells(board))
 
     elif level == 2:
-        # Medium: block win or take win, else random
         move = None
         for r, c in get_empty_cells(board):
             board[r][c] = 'O'
-            if check_winner(board) == 'O':
+            if checkWin(board) == 'O':
                 return board[r].__setitem__(c, 'O')
             board[r][c] = ' '
             board[r][c] = 'X'
-            if check_winner(board) == 'X':
+            if checkWin(board) == 'X':
                 move = (r, c)
             board[r][c] = ' '
         if not move:
             move = random.choice(get_empty_cells(board))
 
     elif level == 3:
-        # Hard: use Minimax
         _, move = minimax(board, True)
 
     if move:
@@ -156,7 +153,7 @@ def get_ai_move(board, level):
         board[r][c] = 'O'
 
 def minimax(board, is_maximizing):
-    winner = check_winner(board)
+    winner = checkWin(board)
     if winner == 'O':
         return 1, None
     elif winner == 'X':
@@ -194,7 +191,6 @@ def minimax(board, is_maximizing):
 def main():
     board = initialise_board()
 
-    # Select AI difficulty
     while True:
         level = input("Choose AI difficulty (1 = Easy, 2 = Medium, 3 = Hard): ")
         if level in ['1', '2', '3']:
@@ -206,7 +202,7 @@ def main():
     while True:
         print_board(board)
         get_player_move(board)
-        if check_winner(board) == 'X':
+        if checkWin(board) == 'X':
             print_board(board)
             print("Congratulations, you win!")
             break
@@ -216,7 +212,7 @@ def main():
             break
 
         get_ai_move(board, ai_level)
-        if check_winner(board) == 'O':
+        if checkWin(board) == 'O':
             print_board(board)
             print("AI wins! Better luck next time.")
             break
