@@ -72,31 +72,32 @@
 # 4, 5, 6 --> Row (4-1/3) (5-1/3) (6-1/3) / / /
 # 7, 8, 9 --> Row (7-1/3) (8-1/3) (9-1/3) / / /
 
-# def getPlayerMove(board):
+def getPlayerMove(board):
 
-#     userChoice = ""
-#     while(userChoice.isdigit() == False):
-#         userChoice = input("Player 1 Please key in your choice.")
-#     if(userChoice.isdigit() == False or int(userChoice)<1 or int(userChoice)>9):
-#         print("Key in a valid number")
-#     else:
-#         move_input = input("Enter your move (1-9): ")
-#         move - int(move_input) - 1
-#         row = move //3
-#         col - move % 3
-#     if(grid[row][col] == ' '):
-#         board[row][col] = "X"
-#         break
-#     else:
-#          print("Please Key in your choice again as this spot is taken")
+    userChoice = ""
+    while(userChoice.isdigit() == False):
+        userChoice = input("Player 1 Please key in your choice.")
+    if(userChoice.isdigit() == False or int(userChoice)<1 or int(userChoice)>9):
+        print("Key in a valid number")
+    else:
+        move_input = input("Enter your move (1-9): ")
+        move - int(move_input) - 1
+        row = move //3
+        col - move % 3
+    if(grid[row][col] == ' '):
+        board[row][col] = "X"
+        break
+    else:
+         print("Please Key in your choice again as this spot is taken")
 
-# def checkWin(board):
-#      winning_condition [[board[0][0]], [board[0][1]], [board[0][2]], [board[1][0]], [board[1][1]], [board[1][2]], [board[3][0]], [board[3][1]], [board[3][2]], [board[0][0]], [board[1][0]], [board[2][0]], [board[0][1]], [board[1][1]], [board[2][1]], [board[0][2]], [board[1][2]], [board[2][2]], [board[0][2]], [board[1][1]], [board[2][0]], [board[2][0]], [board[1][1]], [board[0][2]],]
-#      for condition in WinningCondition
-#         if(condition[0] == condition[1] == condition[2]):
-#              if (condition!=" "):
-#                 return True
-    # return False
+def checkWin(board):
+     winning_condition [[board[0][0]], [board[0][1]], [board[0][2]], [board[1][0]], [board[1][1]], [board[1][2]], [board[3][0]], [board[3][1]], [board[3][2]], [board[0][0]], [board[1][0]], [board[2][0]], [board[0][1]], [board[1][1]], [board[2][1]], [board[0][2]], [board[1][2]], [board[2][2]], [board[0][2]], [board[1][1]], [board[2][0]], [board[2][0]], [board[1][1]], [board[0][2]],]
+     for condition in WinningCondition
+        if(condition[0] == condition[1] == condition[2]):
+             if (condition!=" "):
+                return True
+    return False
+
 
     board=initialiseBoard()
     while True:
