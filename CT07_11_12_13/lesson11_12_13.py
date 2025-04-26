@@ -152,4 +152,4 @@ while True:
         print("It's a draw!")
         break
 
-Difficulty levels for AI: - Allow for the player to choose AI difficulty: a. Easy: Choose a random empty cell each time b. Medium: Prioritise blocking human player from winning c. Hard: Implement the algorithm you have created for idea
+Difficulty levels for AI: Easy: Choose a random empty cell each time b. Medium: Prioritise blocking human player from winning c. Hard: Implement the algorithm you have created for idea
