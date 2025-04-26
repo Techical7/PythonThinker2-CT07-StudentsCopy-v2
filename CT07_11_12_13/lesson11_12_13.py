@@ -176,4 +176,5 @@ while True:
         print("It's a draw!")
         break
 
-    get_ai_move
+    get_ai_move(board, ai_level)
+    if check_winner
