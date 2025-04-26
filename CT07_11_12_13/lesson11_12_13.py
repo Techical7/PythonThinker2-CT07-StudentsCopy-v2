@@ -169,4 +169,4 @@ while True:
     get_player_move(board)
     if check_winner(board) == 'X'
         print_board(board)
-        print("Congratuta")
+        print("Congratulations, you win!")
