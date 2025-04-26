@@ -184,10 +184,6 @@
 #                 best_move = (r, c)
 #         return best_score, best_move
 
-# # ----------------------
-# # Game Entry Point
-# # ----------------------
-
 # def main():
 #     board = initialise_board()
 
