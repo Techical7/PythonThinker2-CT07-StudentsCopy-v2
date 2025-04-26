@@ -177,4 +177,5 @@ while True:
         break
 
     get_ai_move(board, ai_level)
-    if check_winner(board) == '0'
+    if check_winner(board) == 'O'
+    print_board
