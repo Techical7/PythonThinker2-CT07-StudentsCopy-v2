@@ -100,7 +100,7 @@
 
     board=initialiseBoard()
     while True:
-        print
+        printBoard(board)
 
 
 
