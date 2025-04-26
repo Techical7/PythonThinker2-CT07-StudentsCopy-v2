@@ -72,6 +72,8 @@
 # 4, 5, 6 --> Row (4-1/3) (5-1/3) (6-1/3) / / /
 # 7, 8, 9 --> Row (7-1/3) (8-1/3) (9-1/3) / / /
 
+import random
+
 def initialiseBoard():
     return [[' ' for _ in range(3)] for _ in range(3)]
 
@@ -90,47 +92,64 @@ def getPlayerMove(board):
         if move < 1 or move > 9:
             print("Please enter a number between 1 and 9.")
             continue
-        
+
         move -= 1
         row = move // 3
         col = move % 3
-        
+
         if board[row][col] == ' ':
             board[row][col] = "X"
             break
         else:
             print("Spot taken, choose another one.")
 
+def getAIMove(board):
+    print("AI is making a move...")
+    empty_cells = [(r, c) for r in range(3) for c in range(3) if board[r][c] == ' ']
+    if empty_cells:
+        row, col = random.choice(empty_cells)
+        board[row][col] = "O"
+
 def checkWin(board):
-
     winning_conditions = [
-
         [board[0][0], board[0][1], board[0][2]],
         [board[1][0], board[1][1], board[1][2]],
         [board[2][0], board[2][1], board[2][2]],
-
         [board[0][0], board[1][0], board[2][0]],
         [board[0][1], board[1][1], board[2][1]],
         [board[0][2], board[1][2], board[2][2]],
-
         [board[0][0], board[1][1], board[2][2]],
         [board[0][2], board[1][1], board[2][0]],
     ]
-
     for condition in winning_conditions:
         if condition[0] == condition[1] == condition[2] and condition[0] != ' ':
             return True
     return False
 
+def isBoardFull(board):
+    return all(cell != ' ' for row in board for cell in row)
 
+# Game loop
 board = initialiseBoard()
 while True:
     printBoard(board)
     getPlayerMove(board)
     if checkWin(board):
-        print("Player 1 wins!")
         printBoard(board)
+        print("Player 1 (X) wins!")
+        break
+    if isBoardFull(board):
+        printBoard(board)
+        print("It's a draw!")
         break
 
-
+    getAIMove(board)
+    if checkWin(board):
+        printBoard(board)
+        print("AI (O) wins!")
+        break
+    if isBoardFull(board):
+        printBoard(board)
+        print("It's a draw!")
+        break
 
