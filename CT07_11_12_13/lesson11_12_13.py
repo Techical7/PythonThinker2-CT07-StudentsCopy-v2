@@ -129,7 +129,6 @@ def checkWin(board):
 def isBoardFull(board):
     return all(cell != ' ' for row in board for cell in row)
 
-# Game loop
 board = initialiseBoard()
 while True:
     printBoard(board)
