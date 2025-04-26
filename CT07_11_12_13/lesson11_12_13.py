@@ -158,3 +158,4 @@ while True:
     # Hard: Implement the algorithm you have created for
 while True:
     level = input("Choose AI difficulty (1 = Easy, 2 = Medium, 3 = Hard): ")
+    if level in []
