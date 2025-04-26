@@ -165,4 +165,5 @@ while True:
         print("Invalid input. Please select 1, 2, or 3.")
 
 while True:
-    print
+    print_board(board)
+    get
