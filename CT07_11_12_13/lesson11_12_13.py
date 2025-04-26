@@ -74,44 +74,40 @@
 
 import random
 
-def initialiseBoard():
+def initialise_board():
     return [[' ' for _ in range(3)] for _ in range(3)]
 
-def printBoard(board):
+def print_board(board):
     for row in board:
         print('|'.join(row))
         print('-' * 5)
 
-def getPlayerMove(board):
+def get_player_move(board):
     while True:
-        userChoice = input("Player 1, please key in your choice (1-9): ")
-        if not userChoice.isdigit():
-            print("Please enter a valid number.")
+        choice = input("Player 1, enter your move (1-9): ")
+        if not choice.isdigit():
+            print("Invalid input. Enter a number between 1 and 9.")
             continue
-        move = int(userChoice)
+
+        move = int(choice)
         if move < 1 or move > 9:
-            print("Please enter a number between 1 and 9.")
+            print("Number must be between 1 and 9.")
             continue
 
         move -= 1
-        row = move // 3
-        col = move % 3
+        row, col = divmod(move, 3)
 
         if board[row][col] == ' ':
-            board[row][col] = "X"
+            board[row][col] = 'X'
             break
         else:
-            print("Spot taken, choose another one.")
+            print("Cell already taken. Try a different spot.")
 
-def getAIMove(board):
-    print("AI is making a move...")
-    empty_cells = [(r, c) for r in range(3) for c in range(3) if board[r][c] == ' ']
-    if empty_cells:
-        row, col = random.choice(empty_cells)
-        board[row][col] = "O"
+def get_empty_cells(board):
+    return [(r, c) for r in range(3) for c in range(3) if board[r][c] == ' ']
 
-def checkWin(board):
-    winning_conditions = [
+def check_winner(board):
+    win_lines = [
         [board[0][0], board[0][1], board[0][2]],
         [board[1][0], board[1][1], board[1][2]],
         [board[2][0], board[2][1], board[2][2]],
@@ -121,63 +117,113 @@ def checkWin(board):
         [board[0][0], board[1][1], board[2][2]],
         [board[0][2], board[1][1], board[2][0]],
     ]
-    for condition in winning_conditions:
-        if condition[0] == condition[1] == condition[2] and condition[0] != ' ':
-            return True
-    return False
+    for line in win_lines:
+        if line[0] == line[1] == line[2] and line[0] != ' ':
+            return line[0]
+    return None
 
-def isBoardFull(board):
+def board_full(board):
     return all(cell != ' ' for row in board for cell in row)
 
-board = initialiseBoard()
-while True:
-    printBoard(board)
-    getPlayerMove(board)
-    if checkWin(board):
-        printBoard(board)
-        print("Player 1 wins!")
-        break
-    if isBoardFull(board):
-        printBoard(board)
-        print("It's a draw!")
-        break
+def get_ai_move(board, level):
+    print(f"AI (Level {level}) is thinking...")
 
-    getAIMove(board)
-    if checkWin(board):
-        printBoard(board)
-        print("AI wins!")
-        break
-    if isBoardFull(board):
-        printBoard(board)
-        print("It's a draw!")
-        break
+    if level == 1:
+        # Easy: random move
+        move = random.choice(get_empty_cells(board))
 
-    # Difficulty levels for AI:
-    # Easy: Choose a random empty cell each time. 
-    # Medium: Prioritise blocking human player from winning. 
-    # Hard: Implement the algorithm you have created for
-while True:
-    level = input("Choose AI difficulty (1 = Easy, 2 = Medium, 3 = Hard): ")
-    if level in ['1', '2', '3']:
-        ai_level = int(level)
-        break
+    elif level == 2:
+        # Medium: block win or take win, else random
+        move = None
+        for r, c in get_empty_cells(board):
+            board[r][c] = 'O'
+            if check_winner(board) == 'O':
+                return board[r].__setitem__(c, 'O')
+            board[r][c] = ' '
+            board[r][c] = 'X'
+            if check_winner(board) == 'X':
+                move = (r, c)
+            board[r][c] = ' '
+        if not move:
+            move = random.choice(get_empty_cells(board))
+
+    elif level == 3:
+        # Hard: use Minimax
+        _, move = minimax(board, True)
+
+    if move:
+        r, c = move
+        board[r][c] = 'O'
+
+def minimax(board, is_maximizing):
+    winner = check_winner(board)
+    if winner == 'O':
+        return 1, None
+    elif winner == 'X':
+        return -1, None
+    elif board_full(board):
+        return 0, None
+
+    if is_maximizing:
+        best_score = -float('inf')
+        best_move = None
+        for r, c in get_empty_cells(board):
+            board[r][c] = 'O'
+            score, _ = minimax(board, False)
+            board[r][c] = ' '
+            if score > best_score:
+                best_score = score
+                best_move = (r, c)
+        return best_score, best_move
     else:
-        print("Invalid input. Please select 1, 2, or 3.")
+        best_score = float('inf')
+        best_move = None
+        for r, c in get_empty_cells(board):
+            board[r][c] = 'X'
+            score, _ = minimax(board, True)
+            board[r][c] = ' '
+            if score < best_score:
+                best_score = score
+                best_move = (r, c)
+        return best_score, best_move
 
-while True:
-    print_board(board)
-    get_player_move(board)
-    if check_winner(board) == 'X'
-        print_board(board)
-        print("Congratulations, you win!")
-        break
-    if board_full(board):
-        print_board(board)
-        print("It's a draw!")
-        break
+# ----------------------
+# Game Entry Point
+# ----------------------
 
-    get_ai_move(board, ai_level)
-    if check_winner(board) == 'O'
+def main():
+    board = initialise_board()
+
+    # Select AI difficulty
+    while True:
+        level = input("Choose AI difficulty (1 = Easy, 2 = Medium, 3 = Hard): ")
+        if level in ['1', '2', '3']:
+            ai_level = int(level)
+            break
+        else:
+            print("Invalid input. Please select 1, 2, or 3.")
+
+    while True:
         print_board(board)
-        print('AI wins!')
-        break
+        get_player_move(board)
+        if check_winner(board) == 'X':
+            print_board(board)
+            print("Congratulations, you win!")
+            break
+        if board_full(board):
+            print_board(board)
+            print("It's a draw!")
+            break
+
+        get_ai_move(board, ai_level)
+        if check_winner(board) == 'O':
+            print_board(board)
+            print("AI wins! Better luck next time.")
+            break
+        if board_full(board):
+            print_board(board)
+            print("It's a draw!")
+            break
+
+if __name__ == "__main__":
+    main()
