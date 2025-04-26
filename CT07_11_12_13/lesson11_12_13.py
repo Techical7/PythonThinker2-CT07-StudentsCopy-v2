@@ -172,3 +172,4 @@ while True:
         print("Congratulations, you win!")
         break
     if board_full(board):
+        print
