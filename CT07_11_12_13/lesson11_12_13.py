@@ -162,4 +162,6 @@ while True:
         ai_level = int(level)
         break
     else:
-        print("Invalid input. Please select 1, 2, or 3")
+        print("Invalid input. Please select 1, 2, or 3.")
+
+        
