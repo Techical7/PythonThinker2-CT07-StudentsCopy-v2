@@ -102,7 +102,7 @@ def getPlayerMove(board):
             print("Spot taken, choose another one.")
 
 def checkWin(board):
-    # Check rows, columns, and diagonals
+    
     winning_conditions = [
         # Rows
         [board[0][0], board[0][1], board[0][2]],
