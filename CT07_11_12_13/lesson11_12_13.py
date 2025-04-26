@@ -157,4 +157,4 @@ while True:
     # Medium: Prioritise blocking human player from winning. 
     # Hard: Implement the algorithm you have created for
 while True:
-    level = input("Choose AI difficulty (1 = Easy, 2 = )")
+    level = input("Choose AI difficulty (1 = Easy, 2 = Medium, 3 = Hard): ")
