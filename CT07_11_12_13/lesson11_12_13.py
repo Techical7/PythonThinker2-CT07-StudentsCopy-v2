@@ -135,7 +135,7 @@ while True:
     getPlayerMove(board)
     if checkWin(board):
         printBoard(board)
-        print("Player 1 (X) wins!")
+        print("Player 1 wins!")
         break
     if isBoardFull(board):
         printBoard(board)
@@ -145,7 +145,7 @@ while True:
     getAIMove(board)
     if checkWin(board):
         printBoard(board)
-        print("AI (O) wins!")
+        print("AI wins!")
         break
     if isBoardFull(board):
         printBoard(board)
