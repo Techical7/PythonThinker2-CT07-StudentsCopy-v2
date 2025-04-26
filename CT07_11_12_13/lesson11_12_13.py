@@ -157,3 +157,4 @@ while True:
     # Medium: Prioritise blocking human player from winning. 
     # Hard: Implement the algorithm you have created for
 while True:
+    level = input("")
