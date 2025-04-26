@@ -159,4 +159,6 @@ while True:
 while True:
     level = input("Choose AI difficulty (1 = Easy, 2 = Medium, 3 = Hard): ")
     if level in ['1', '2', '3']:
-        ai
+        ai_level = int(level)
+        break
+    else
