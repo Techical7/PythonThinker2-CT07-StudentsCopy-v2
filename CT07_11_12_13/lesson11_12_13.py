@@ -72,39 +72,65 @@
 # 4, 5, 6 --> Row (4-1/3) (5-1/3) (6-1/3) / / /
 # 7, 8, 9 --> Row (7-1/3) (8-1/3) (9-1/3) / / /
 
-# def getPlayerMove(board):
+def initialiseBoard():
+    return [[' ' for _ in range(3)] for _ in range(3)]
 
-#     userChoice = ""
-#     while(userChoice.isdigit() == False):
-#         userChoice = input("Player 1 Please key in your choice.")
-#     if(userChoice.isdigit() == False or int(userChoice)<1 or int(userChoice)>9):
-#         print("Key in a valid number")
-#     else:
-#         move_input = input("Enter your move (1-9): ")
-#         move - int(move_input) - 1
-#         row = move //3
-#         col - move % 3
-#     if(grid[row][col] == ' '):
-#         board[row][col] = "X"
-#         break
-#     else:
-#          print("Please Key in your choice again as this spot is taken")
+def printBoard(board):
+    for row in board:
+        print('|'.join(row))
+        print('-' * 5)
 
-# def checkWin(board):
-#      winning_condition [[board[0][0]], [board[0][1]], [board[0][2]], [board[1][0]], [board[1][1]], [board[1][2]], [board[3][0]], [board[3][1]], [board[3][2]], [board[0][0]], [board[1][0]], [board[2][0]], [board[0][1]], [board[1][1]], [board[2][1]], [board[0][2]], [board[1][2]], [board[2][2]], [board[0][2]], [board[1][1]], [board[2][0]], [board[2][0]], [board[1][1]], [board[0][2]],]
-#      for condition in WinningCondition
-#         if(condition[0] == condition[1] == condition[2]):
-#              if (condition!=" "):
-#                 return True
-    # return False
-
-
-    board=initialiseBoard()
+def getPlayerMove(board):
     while True:
-        printBoard(board)
-        if checkWin(board)
-            print("win")
-            printBoard(board)
+        userChoice = input("Player 1, please key in your choice (1-9): ")
+        if not userChoice.isdigit():
+            print("Please enter a valid number.")
+            continue
+        move = int(userChoice)
+        if move < 1 or move > 9:
+            print("Please enter a number between 1 and 9.")
+            continue
+        
+        move -= 1
+        row = move // 3
+        col = move % 3
+        
+        if board[row][col] == ' ':
+            board[row][col] = "X"
             break
+        else:
+            print("Spot taken, choose another one.")
+
+def checkWin(board):
+    # Check rows, columns, and diagonals
+    winning_conditions = [
+        # Rows
+        [board[0][0], board[0][1], board[0][2]],
+        [board[1][0], board[1][1], board[1][2]],
+        [board[2][0], board[2][1], board[2][2]],
+        # Columns
+        [board[0][0], board[1][0], board[2][0]],
+        [board[0][1], board[1][1], board[2][1]],
+        [board[0][2], board[1][2], board[2][2]],
+        # Diagonals
+        [board[0][0], board[1][1], board[2][2]],
+        [board[0][2], board[1][1], board[2][0]],
+    ]
+
+    for condition in winning_conditions:
+        if condition[0] == condition[1] == condition[2] and condition[0] != ' ':
+            return True
+    return False
+
+# Game loop
+board = initialiseBoard()
+while True:
+    printBoard(board)
+    getPlayerMove(board)
+    if checkWin(board):
+        print("Player 1 wins!")
+        printBoard(board)
+        break
+
 
 
