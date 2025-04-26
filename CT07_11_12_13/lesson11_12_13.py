@@ -161,4 +161,5 @@ while True:
     if level in ['1', '2', '3']:
         ai_level = int(level)
         break
-    else
+    else:
+        print("")
