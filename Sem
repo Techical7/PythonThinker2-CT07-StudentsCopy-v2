@@ -165,6 +165,6 @@ for i in list1:
     pass
 
 if list1 = odd
-print( list1 + "is a odd number")
+print( list1 + "is odd number")
 else
-print( list1 + "is an even number")
+print( list1 + "is even number")
