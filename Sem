@@ -53,8 +53,8 @@ daily_sales = [1205, 986, 1354, 10535, !15741, 11200, !800,
                8903, 1008, 1530]
 
 
-max_day = max(5)
-min_day = min(7)
+max_day = max(daily_sales)
+min_day = min(daily_sales)
 
 idx.daily_sales = index(daily_sales)
 
