@@ -58,7 +58,6 @@ min_day = min(daily_sales)
 average_day = ave(daily_sales)
 idx.daily_sales = index(daily_sales)
 
-len()
  print(max_day)
  print(min_day)
 
