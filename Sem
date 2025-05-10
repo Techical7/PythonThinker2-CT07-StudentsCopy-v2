@@ -60,3 +60,4 @@ idx.daily_sales = index(daily_sales)
 
 len()
 
+max_day = 
