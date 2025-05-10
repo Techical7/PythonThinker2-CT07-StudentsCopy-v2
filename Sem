@@ -62,4 +62,4 @@ len()
 
 max_day = daily_sales
 min_day = daily_sales
-average_day
+average_day = daily_sales
