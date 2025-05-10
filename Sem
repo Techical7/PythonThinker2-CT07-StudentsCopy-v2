@@ -167,4 +167,4 @@ for i in list1:
 if list1 = odd
 print( list1 + "is a odd number")
 else
-print( li)
+print( list1 + "is an even number")
