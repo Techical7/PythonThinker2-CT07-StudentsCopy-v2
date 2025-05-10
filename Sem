@@ -60,4 +60,3 @@ idx.daily_sales = index(daily_sales)
 
 len()
 
-daily_sales = ("August + daily_sales")
