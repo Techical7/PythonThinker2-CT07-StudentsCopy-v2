@@ -164,7 +164,7 @@ is_even = (list1(0,2,4,6,8))
 for i in list1:
     pass
 
-if list1 = odd
+if list1 = is_odd
 print( list1 + "is odd number")
 else
 print( list1 + "is even number")
