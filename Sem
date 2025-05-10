@@ -59,3 +59,4 @@ min_day = min(7)
 idx.daily_sales = index(daily_sales)
 
 len()
+eeee
