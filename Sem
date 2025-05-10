@@ -57,3 +57,5 @@ max = max.daily_sales(5)
 min = min.daily_sales(7)
 
 idx.daily_sales = index(daily_sales)
+
+len()
