@@ -1,1 +1,2 @@
 file = open("manual_output.txt", "w")
+file.write("manu")
