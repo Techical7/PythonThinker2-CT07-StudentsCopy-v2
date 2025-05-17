@@ -61,4 +61,5 @@ import pygame
 pygame.init()
 
 # Set window size
-screen_width
+screen_width = 800
+screen_hei
