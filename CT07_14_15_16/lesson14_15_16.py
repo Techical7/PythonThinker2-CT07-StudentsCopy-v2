@@ -62,9 +62,11 @@ import os
 
 
 example = ("line 1\n", "line 2\n", "line3\n")
+
 file = open("manual_output.txt", "w")
 file.write("manual Write Example")
 file.close()
+
 
 file = open("manual_output.txt", "r")
 content = file.read()
