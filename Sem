@@ -4,7 +4,7 @@ file.close()
 
 file = open("manual_output.txt", "r")
 content = file.read()
-print(:file)
+print("file content")
 file.close()
 
 file = open("manual_output.txt", "a")
