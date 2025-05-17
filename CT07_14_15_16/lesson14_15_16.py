@@ -68,7 +68,7 @@ content = file.read()
 print("File content:\n{}".format(content))
 file.close()
 
-file = open("manual_output.txt", "")
+file = open("manual_output.txt", "a")
 
 
 file.close()
