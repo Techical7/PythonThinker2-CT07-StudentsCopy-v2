@@ -7,6 +7,7 @@ content = file.read()
 
 file.close()
 
-file = open("manual_output.txt", "w")
+file = open("manual_output.txt", "a")
+
 
 file.close()
