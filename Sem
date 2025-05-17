@@ -2,3 +2,6 @@ file = open("manual_output.txt", "w")
 file.write("manual Write Example")
 file.close()
 
+file = open("manual_output.txt", "r")
+
+file.close()
