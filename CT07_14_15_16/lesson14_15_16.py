@@ -77,4 +77,4 @@ file = open("manual_output.txt", "a")
 
 
 file.close()
-qwertyuiopasdfghjklzxcvbnm1234567890
+qwertyuiopasdfghjkl
