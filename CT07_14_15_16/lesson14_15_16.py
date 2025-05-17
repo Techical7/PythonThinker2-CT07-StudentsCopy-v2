@@ -57,7 +57,7 @@
 #     print("Output: Invalid")
 
 
-# print("hello from lesson")
+# print("hello from lesson 14, 15. 16")
 import os
 file = open("manual_output.txt", "w")
 file.write("manual Write Example")
