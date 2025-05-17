@@ -1,4 +1,4 @@
-print("hello from lesson")
+# print("hello from lesson")
 import os
 file = open("manual_output.txt", "w")
 file.write("manual Write Example")
