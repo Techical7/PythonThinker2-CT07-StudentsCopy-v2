@@ -1,5 +1,5 @@
 print("hello from lesson")
-
+import 0s
 file = open("manual_output.txt", "w")
 file.write("manual Write Example")
 file.close()
