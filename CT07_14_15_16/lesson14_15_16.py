@@ -57,4 +57,5 @@ else:
     print("Output: Invalid")
 
 import pygame
- # in
+ # initialize pygame
+pygame.init()
