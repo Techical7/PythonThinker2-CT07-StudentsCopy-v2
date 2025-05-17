@@ -60,4 +60,4 @@ import pygame
  # initialize pygame
 pygame.init()
 
-# set 
+# Set window size 
