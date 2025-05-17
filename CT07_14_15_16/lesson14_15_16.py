@@ -61,7 +61,7 @@
 import os
 
 
-
+example = ()
 file = open("manual_output.txt", "w")
 file.write("manual Write Example")
 file.close()
