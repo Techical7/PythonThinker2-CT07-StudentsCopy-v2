@@ -1,1 +1,1 @@
-file = open("manual_output.txt")
+file = open("manual_output.txt", "w")
