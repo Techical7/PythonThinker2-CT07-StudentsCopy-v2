@@ -67,3 +67,7 @@ file = open("manual_output.txt", "r")
 content = file.read()
 print("File content:\n{}".format(content))
 file.close()
+
+file = open("manual_output.txt", "w")
+file.write("manual Write Example")
+file.close()
