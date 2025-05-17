@@ -60,4 +60,5 @@ import pygame
  # initialize pygame
 pygame.init()
 
-# Set window size 
+# Set window size
+screen_width
