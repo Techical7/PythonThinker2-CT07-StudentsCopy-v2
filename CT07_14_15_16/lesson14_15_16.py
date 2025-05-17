@@ -77,4 +77,3 @@ file = open("manual_output.txt", "a")
 
 
 file.close()
-fdfdfdfdfdfdfdffdfdfdd
