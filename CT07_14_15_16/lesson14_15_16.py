@@ -59,6 +59,9 @@
 
 # print("Hello from lesson 14_15_16")
 import os
+
+
+
 file = open("manual_output.txt", "w")
 file.write("manual Write Example")
 file.close()
