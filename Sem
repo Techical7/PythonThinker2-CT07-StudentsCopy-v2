@@ -12,7 +12,4 @@ file.close()
 file = open("manual_output.txt", "a")
 
 
-file.close()file = open("manual_output.txt", "a")
-
-
 file.close()
