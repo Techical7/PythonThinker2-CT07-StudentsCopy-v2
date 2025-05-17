@@ -1,3 +1,4 @@
+# print("Hello from lesson 14_15_16")
 
 import pygame
  # initialize pygame
