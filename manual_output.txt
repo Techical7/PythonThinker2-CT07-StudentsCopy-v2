@@ -1,1 +1,20 @@
-manual Write Example
+# print("Hello from lesson 14_15_16")
+import os
+
+
+example = ("line 1\n", "line 2\n", "line3\n")
+
+file = open("manual_output.txt", "w")
+file.write("manual Write Example")
+file.close()
+
+
+file = open("manual_output.txt", "r")
+content = file.read()
+print("File content:\n{}".format(content))
+file.close()
+
+file = open("manual_output.txt", "a")
+
+
+file.close()
